@@ -43,19 +43,18 @@ while True:
 
     if user.lower() == "what time is it":
         print("AI: The time is", get_time())
-    continue
+        continue
 
     if user.lower() == "what is today's date":
         print("AI: Today is", get_date())
-    continue
+        continue
 
     if user.lower() == "who made you":
-        print("AI: I was made by",creator)
-    continue
+        print("AI: I was made by", creator)
+        continue
 
     if user.lower() == "thank you":
-        print("AI: You`re welcome")
-    continue
+        print("AI: You're welcome")
+        continue
 
     print("AI:", reply(user))
-
