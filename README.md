@@ -1,2 +1,6 @@
 # My-AI
-My first AI project
+This is my personal AI project
+## Goal
+Build my own AI assistant from scratch
+## Version
+0.1
