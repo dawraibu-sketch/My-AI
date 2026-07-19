@@ -6,6 +6,6 @@ Build my own AI assistant from scratch
 ##### 0.1 complete - (basic chatbot)
 ##### 0.2 complete - (brain file + memory)
 ##### 0.3 complete - (Added greetings, time, date and help)
-##### 0.4 work in progress
-##### 0.5 incomplete
+##### 0.4 complete - (Calclator)
+##### 0.5 work in progress
 ##### 1.0 incomplete
