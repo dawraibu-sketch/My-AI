@@ -54,7 +54,11 @@ while True:
         continue
 
     if user.lower() == "thank you":
-        print("AI: You're welcome")
+        print("AI: You're welcome"  + "!")
+        continue
+        
+    if user.lower() == "help" or user.lower() == "what can you do":
+        print("AI: I can:\n- Greet you\n- Remember your name\n- Tell the time\n- Tell today's date\n- Tell who created me")
         continue
 
     print("AI:", reply(user))
