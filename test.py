@@ -28,8 +28,7 @@ if user.lower() == "calculate":
 
             except:
                 print("AI: Please enter a valid number.")
-                continue
-
+              
             next_calculation = input("Let's do next calculation? (yes/no): ")
 
             if next_calculation.lower() != "yes":
