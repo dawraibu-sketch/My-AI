@@ -62,7 +62,7 @@ while True:
         print("AI: I can:\n- Greet you\n- Remember your name\n- Tell the time\n- Tell today's date\n- Tell who created me")
         continue
 
-    if user.lower() == "calcuate":
+    if user.lower() == "calculate":
         Menu()
         continue
 
