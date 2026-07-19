@@ -1,6 +1,6 @@
 from brain import reply
 from utils import get_greeting, get_date, get_time
-from calculator import add, subtract, multiply, divide, power, root, Menu 
+from calculator import add, subtract, multiply, divide, power, root, Menu
 
 creator = "Ibrahim"
 memory = {}
