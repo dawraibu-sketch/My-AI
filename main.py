@@ -90,7 +90,7 @@ while True:
                 elif choice == '6':
                     print(num1, "√", num2, "=", round(root(num1, num2), 2))
         
-                next_calculation = input("Let's do next calculation? (yes/no): ")
+                next_calculation = input("Another calculation? (yes/no): ")
 
                 if next_calculation.lower() != "yes":
                     break
