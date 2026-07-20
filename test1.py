@@ -1,7 +1,7 @@
 if user.lower() == "calculate":
     while True:
         Menu()
-        choice = input("Enter choice(1/2/3/4/5/6): ")
+        choice = input("Enter choice(1/2/3/4/5/6): ").
 
         if choice in ('1', '2', '3', '4', '5', '6'):
             try:
