@@ -33,3 +33,6 @@ def Menu():
     print("6.Root")
   
     return None
+
+def Calculator():
+    
