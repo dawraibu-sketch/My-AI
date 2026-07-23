@@ -1,3 +1,4 @@
+import random
 def reply(message):
     message = message.lower()
 
@@ -11,4 +12,4 @@ def reply(message):
         return "Goodbye!"
 
     else:
-        return "I don't understand that yet."
+        return ""AI:", random.choice(unknown)"
