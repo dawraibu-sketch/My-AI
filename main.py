@@ -79,4 +79,8 @@ while True:
         print("AI:", random.choice(quotes))
         continue
 
+    if user.lower() == "tell me a fact":
+        print("AI:", random.choice(facts))
+        continue
+
     print("AI:", reply(user))
