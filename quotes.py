@@ -631,5 +631,4 @@ quotes = [
     "Every decision is a small act of self-trust.",
     "Good decisions come from asking better questions, not just gathering more answers.",
     "The best decision makers stay flexible enough to change course when needed.",
-    "What you decide today is simply the first step of what you'll refine tomorrow."
-    ]
+    "What you decide today is simply the first step of what you'll refine tomorrow.",]
