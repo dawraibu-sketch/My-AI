@@ -3,6 +3,7 @@ from utils import get_greeting, get_date, get_time
 from calculator import Calculator
 from jokes import jokes
 from quotes import quotes
+from facts import facts
 import random
 
 creator = "Ibrahim"
