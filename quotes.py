@@ -431,7 +431,7 @@ quotes = [
     "The mind that stays curious rarely stays bored.",
     "What sparks wonder in you deserves more of your attention.",
     "Curiosity is the difference between existing and truly noticing.",
-    "Every great idea began with someone asking, "what if."",
+    "Every great idea began with someone asking, *what if*.",
     "The curious never stop finding new doors in familiar hallways.",
     "What you approach with curiosity rarely feels like a threat.",
     "Curiosity is the quiet fuel behind every lifelong learner.",
