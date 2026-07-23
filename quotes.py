@@ -410,7 +410,7 @@ quotes = [
     "Every question asked honestly moves you closer to truth.",
     "What you're curious about often points toward your purpose.",
     "Curiosity is the antidote to a closed and rigid mind.",
-    "Every "why" asked sincerely leads closer to understanding.",
+    "Every *why* asked sincerely leads closer to understanding.",
     "What you explore with an open mind expands your entire perspective.",
     "Curiosity turns ordinary days into opportunities for discovery.",
     "Every unanswered question is an invitation to keep learning.",
