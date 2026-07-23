@@ -4,6 +4,7 @@ from calculator import Calculator
 from jokes import jokes
 from quotes import quotes
 from facts import facts
+from coinflip import flip_coin
 import random
 
 creator = "Ibrahim"
@@ -81,6 +82,10 @@ while True:
 
     if user.lower() == "tell me a fact":
         print("AI:", random.choice(facts))
+        continue
+
+    if user.lower() in ["flip a coin", "coin flip", "flip coin"]:
+        flip_coin()
         continue
 
     print("AI:", reply(user))
