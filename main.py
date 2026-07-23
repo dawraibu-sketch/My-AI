@@ -1,6 +1,8 @@
 from brain import reply
 from utils import get_greeting, get_date, get_time
 from calculator import Calculator
+from jokes import jokes
+import random
 
 creator = "Ibrahim"
 memory = {}
@@ -65,6 +67,10 @@ while True:
     if user.lower() == "calculate":
         Calculator()
         print("Back to the AI!")
+        continue
+
+    if user.lower() == "tell me a joke":
+        print("AI:", random.choice(jokes))
         continue
 
     print("AI:", reply(user))
