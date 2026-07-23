@@ -1,634 +1,635 @@
 quotes = [
     ## Storms
-    "Every storm runs out of rain eventually."
-    "The calm after a storm is earned, not given."
-    "You don't outrun a storm, you outlast it."
-    "Some storms come to clear what needed to fall."
-    "The tree that bends survives the storm that breaks the stiff one."
-    "A storm doesn't ask permission to arrive."
-    "What the storm destroys, the rebuilding transforms."
-    "The eye of the storm is the quietest place in the chaos."
-    "Every storm carries a lesson disguised as damage."
-    "You can't stop the storm, only prepare your shelter."
-    "The storm doesn't last, but the strength it builds does."
-    "Some people are the storm, others are the shelter."
-    "A storm reveals what was never built to last."
-    "The bravest sailors are made in the roughest seas."
-    "After every storm, the ground remembers how to grow again."
-    "Storms are nature's way of forcing renewal."
-    "The loudest storms often teach the quietest lessons."
-    "You survive a storm one moment at a time, not all at once."
-    "What doesn't bend in the storm eventually breaks."
-    "Every storm passes through, it never moves in."
-    "The storm inside is often louder than the one outside."
-    "Weathering a storm changes how you see clear skies."
-    "Some storms exist only to prove your roots are deep enough."
-    "The storm doesn't care about your plans, only your resilience."
-    "A ship in harbor is safe, but that's not what ships are built for."
-    "The storm always leaves, even when it feels permanent."
-    "Every storm you survive becomes a story you tell with steadier hands."
-    "The wind howls loudest right before it grows tired."
-    "Storms clear the sky so the stars can be seen again."
-    "What you build before the storm determines what survives after it."
-    "The storm doesn't discriminate, but your preparation does."
-    "Even the fiercest storm eventually forgets why it started."
-    "A storm teaches you the difference between fear and respect."
-    "The quiet after a storm is louder than the storm itself."
-    "Storms remind us that control was always an illusion."
-    "Every storm you weather makes the next one feel smaller."
+    "Every storm runs out of rain eventually.",
+    "The calm after a storm is earned, not given.",
+    "You don't outrun a storm, you outlast it.",
+    "Some storms come to clear what needed to fall.",
+    "The tree that bends survives the storm that breaks the stiff one.",
+    "A storm doesn't ask permission to arrive.",
+    "What the storm destroys, the rebuilding transforms.",
+    "The eye of the storm is the quietest place in the chaos.",
+    "Every storm carries a lesson disguised as damage.",
+    "You can't stop the storm, only prepare your shelter.",
+    "The storm doesn't last, but the strength it builds does.",
+    "Some people are the storm, others are the shelter.",
+    "A storm reveals what was never built to last.",
+    "The bravest sailors are made in the roughest seas.",
+    "After every storm, the ground remembers how to grow again.",
+    "Storms are nature's way of forcing renewal.",
+    "The loudest storms often teach the quietest lessons.",
+    "You survive a storm one moment at a time, not all at once.",
+    "What doesn't bend in the storm eventually breaks.",
+    "Every storm passes through, it never moves in.",
+    "The storm inside is often louder than the one outside.",
+    "Weathering a storm changes how you see clear skies.",
+    "Some storms exist only to prove your roots are deep enough.",
+    "The storm doesn't care about your plans, only your resilience.",
+    "A ship in harbor is safe, but that's not what ships are built for.",
+    "The storm always leaves, even when it feels permanent.",
+    "Every storm you survive becomes a story you tell with steadier hands.",
+    "The wind howls loudest right before it grows tired.",
+    "Storms clear the sky so the stars can be seen again.",
+    "What you build before the storm determines what survives after it.",
+    "The storm doesn't discriminate, but your preparation does.",
+    "Even the fiercest storm eventually forgets why it started.",
+    "A storm teaches you the difference between fear and respect.",
+    "The quiet after a storm is louder than the storm itself.",
+    "Storms remind us that control was always an illusion.",
+    "Every storm you weather makes the next one feel smaller.",
 
     ## Silence
-    "Silence is often the loudest form of honesty."
-    "What you don't say can matter more than what you do."
-    "Some conversations are best had without words."
-    "Silence gives space for the truth to surface on its own."
-    "The quiet mind hears what the loud mind misses."
-    "Not every silence is empty; some are full of thought."
-    "Silence can be the sharpest reply."
-    "The strongest response is sometimes no response at all."
-    "There's wisdom in knowing when not to speak."
-    "Silence between two people can say more than any conversation."
-    "Some people fear silence because it forces them to listen to themselves."
-    "Silence is a language only the patient understand."
-    "What silence hides, time eventually reveals."
-    "The room grows honest the moment the noise stops."
-    "Silence isn't the absence of answers, it's the presence of thought."
-    "Some truths only arrive in the quiet moments."
-    "A silent room can hold more meaning than a loud argument."
-    "Silence is where the mind finally gets to speak."
-    "Not responding is sometimes the clearest response."
-    "Silence teaches patience faster than words ever could."
-    "In silence, you finally hear the questions you've been avoiding."
-    "The wisest people know silence is a tool, not a weakness."
-    "Silence after a hard truth often says more than any explanation."
-    "What's said in silence is rarely misunderstood."
-    "Silence gives weight to the words that follow it."
-    "Sometimes the bravest thing you can do is not respond."
-    "Quiet moments carry the loudest revelations."
-    "Silence lets you hear the difference between reaction and truth."
-    "A well-timed silence can end an argument words never could."
-    "The stillness between thoughts is where clarity lives."
-    "Silence doesn't need to be filled to be meaningful."
-    "Sometimes peace sounds exactly like nothing at all."
-    "Learning to sit in silence is learning to sit with yourself."
-    "Silence, used wisely, can be the strongest form of strength."
-    "Not every silence needs to be broken."
-    "The truth often speaks loudest in the quietest rooms."
+    "Silence is often the loudest form of honesty.",
+    "What you don't say can matter more than what you do.",
+    "Some conversations are best had without words.",
+    "Silence gives space for the truth to surface on its own.",
+    "The quiet mind hears what the loud mind misses.",
+    "Not every silence is empty; some are full of thought.",
+    "Silence can be the sharpest reply.",
+    "The strongest response is sometimes no response at all.",
+    "There's wisdom in knowing when not to speak.",
+    "Silence between two people can say more than any conversation.",
+    "Some people fear silence because it forces them to listen to themselves.",
+    "Silence is a language only the patient understand.",
+    "What silence hides, time eventually reveals.",
+    "The room grows honest the moment the noise stops.",
+    "Silence isn't the absence of answers, it's the presence of thought.",
+    "Some truths only arrive in the quiet moments.",
+    "A silent room can hold more meaning than a loud argument.",
+    "Silence is where the mind finally gets to speak.",
+    "Not responding is sometimes the clearest response.",
+    "Silence teaches patience faster than words ever could.",
+    "In silence, you finally hear the questions you've been avoiding.",
+    "The wisest people know silence is a tool, not a weakness.",
+    "Silence after a hard truth often says more than any explanation.",
+    "What's said in silence is rarely misunderstood.",
+    "Silence gives weight to the words that follow it.",
+    "Sometimes the bravest thing you can do is not respond.",
+    "Quiet moments carry the loudest revelations.",
+    "Silence lets you hear the difference between reaction and truth.",
+    "A well-timed silence can end an argument words never could.",
+    "The stillness between thoughts is where clarity lives.",
+    "Silence doesn't need to be filled to be meaningful.",
+    "Sometimes peace sounds exactly like nothing at all.",
+    "Learning to sit in silence is learning to sit with yourself.",
+    "Silence, used wisely, can be the strongest form of strength.",
+    "Not every silence needs to be broken.",
+    "The truth often speaks loudest in the quietest rooms.",
 
     ## Endings And Beginnings
-    "Every ending wears the mask of a beginning."
-    "What closes one door often opens a better one."
-    "Some endings are simply beginnings that haven't introduced themselves yet."
-    "The last page of one story is the first page of the next."
-    "Endings only feel final until you see what follows them."
-    "Every beginning requires the courage to let something else end."
-    "You can't start a new chapter while rereading the old one."
-    "The end of one season is the quiet start of another."
-    "Not all endings are losses; some are corrections."
-    "Every ending carries a lesson disguised as loss."
-    "What ends painfully often begins gracefully."
-    "Beginnings are rarely comfortable, but they are always necessary."
-    "Some things must end so better things can begin."
-    "Every sunset promises a sunrise, even when it doesn't feel like it."
-    "The bravest beginnings come right after the hardest endings."
-    "Closure isn't always given, sometimes it's chosen."
-    "Every chapter closed makes room for the next one to begin."
-    "What feels like the end is often just a turning point."
-    "Endings teach patience; beginnings teach hope."
-    "Not every goodbye is a loss; some are a release."
-    "New beginnings often disguise themselves as difficult endings."
-    "Every ending, given time, becomes a lesson worth its pain."
-    "The space between endings and beginnings is where growth happens."
-    "Some doors close simply because better ones are about to open."
-    "The end of comfort is often the beginning of growth."
-    "Beginnings require faith more than certainty."
-    "Every ending you accept with grace becomes a beginning you welcome with strength."
-    "What you release makes room for what's meant to arrive."
-    "The bravest step is the one taken toward an unclear beginning."
-    "Endings, like seasons, are never truly final, only transitional."
-    "Every beginning was once someone's difficult ending."
-    "The story doesn't end with you, it simply changes chapters."
-    "What feels like falling apart is sometimes falling into place."
-    "Some beginnings only make sense once you're far enough into them."
-    "Every ending leaves behind exactly what you need for the next start."
-    "The hardest endings often lead to the most necessary beginnings."
+    "Every ending wears the mask of a beginning.",
+    "What closes one door often opens a better one.",
+    "Some endings are simply beginnings that haven't introduced themselves yet.",
+    "The last page of one story is the first page of the next.",
+    "Endings only feel final until you see what follows them.",
+    "Every beginning requires the courage to let something else end.",
+    "You can't start a new chapter while rereading the old one.",
+    "The end of one season is the quiet start of another.",
+    "Not all endings are losses; some are corrections.",
+    "Every ending carries a lesson disguised as loss.",
+    "What ends painfully often begins gracefully.",
+    "Beginnings are rarely comfortable, but they are always necessary.",
+    "Some things must end so better things can begin.",
+    "Every sunset promises a sunrise, even when it doesn't feel like it.",
+    "The bravest beginnings come right after the hardest endings.",
+    "Closure isn't always given, sometimes it's chosen.",
+    "Every chapter closed makes room for the next one to begin.",
+    "What feels like the end is often just a turning point.",
+    "Endings teach patience; beginnings teach hope.",
+    "Not every goodbye is a loss; some are a release.",
+    "New beginnings often disguise themselves as difficult endings.",
+    "Every ending, given time, becomes a lesson worth its pain.",
+    "The space between endings and beginnings is where growth happens.",
+    "Some doors close simply because better ones are about to open.",
+    "The end of comfort is often the beginning of growth.",
+    "Beginnings require faith more than certainty.",
+    "Every ending you accept with grace becomes a beginning you welcome with strength.",
+    "What you release makes room for what's meant to arrive.",
+    "The bravest step is the one taken toward an unclear beginning.",
+    "Endings, like seasons, are never truly final, only transitional.",
+    "Every beginning was once someone's difficult ending.",
+    "The story doesn't end with you, it simply changes chapters.",
+    "What feels like falling apart is sometimes falling into place.",
+    "Some beginnings only make sense once you're far enough into them.",
+    "Every ending leaves behind exactly what you need for the next start.",
+    "The hardest endings often lead to the most necessary beginnings.",
 
     ## Scars
-    "The scars you hide are the maps you never share."
-    "Every scar tells a story of survival, not weakness."
-    "Scars are proof that healing is possible, not just pain."
-    "What left a scar also left a lesson."
-    "Not all wounds are visible, but every scar is earned."
-    "A scar is history written on the body or the heart."
-    "The deepest scars often carry the quietest stories."
-    "Your scars are evidence you survived what tried to break you."
-    "Every scar softens with time, but rarely disappears completely."
-    "What scarred you also strengthened the parts around it."
-    "Scars remind you where you've been, not where you're going."
-    "The bravest people wear their scars without needing to explain them."
-    "A scar is proof the wound eventually closed."
-    "Every scar carries both the memory and the healing."
-    "What once bled now simply reminds."
-    "Scars are the fingerprints of everything you've survived."
-    "The pain fades, but the lesson from the scar rarely does."
-    "Every scar is a chapter you lived through, not a chapter that defines you."
-    "What left a mark on you also left you wiser."
-    "Scars don't need to be hidden to be healed."
-    "The body remembers what the mind sometimes forgets."
-    "Every scar has a story that ends in survival."
-    "What once felt like ruin becomes, over time, a quiet strength."
-    "Scars are proof that you're still standing after the fall."
-    "The mark left behind often becomes the reminder you needed."
-    "Every visible scar has an invisible one behind it too."
-    "What healed left a scar, but what scarred also taught you how to heal."
-    "Scars carry both the weight of pain and the lightness of survival."
-    "Every scar is the ending of a wound and the beginning of resilience."
-    "The scars we carry are proof that we kept going anyway."
-    "What broke the skin also built the character."
-    "A scar doesn't ask for pity, only acknowledgment."
-    "Every scar you carry is a quiet testament to your endurance."
-    "The wound closes, but the story it left behind stays."
-    "Scars remind you that you are stronger than what tried to break you."
-    "What scars you also shapes you."
+    "The scars you hide are the maps you never share.",
+    "Every scar tells a story of survival, not weakness.",
+    "Scars are proof that healing is possible, not just pain.",
+    "What left a scar also left a lesson.",
+    "Not all wounds are visible, but every scar is earned.",
+    "A scar is history written on the body or the heart.",
+    "The deepest scars often carry the quietest stories.",
+    "Your scars are evidence you survived what tried to break you.",
+    "Every scar softens with time, but rarely disappears completely.",
+    "What scarred you also strengthened the parts around it.",
+    "Scars remind you where you've been, not where you're going.",
+    "The bravest people wear their scars without needing to explain them.",
+    "A scar is proof the wound eventually closed.",
+    "Every scar carries both the memory and the healing.",
+    "What once bled now simply reminds.",
+    "Scars are the fingerprints of everything you've survived.",
+    "The pain fades, but the lesson from the scar rarely does.",
+    "Every scar is a chapter you lived through, not a chapter that defines you.",
+    "What left a mark on you also left you wiser.",
+    "Scars don't need to be hidden to be healed.",
+    "The body remembers what the mind sometimes forgets.",
+    "Every scar has a story that ends in survival.",
+    "What once felt like ruin becomes, over time, a quiet strength.",
+    "Scars are proof that you're still standing after the fall.",
+    "The mark left behind often becomes the reminder you needed.",
+    "Every visible scar has an invisible one behind it too.",
+    "What healed left a scar, but what scarred also taught you how to heal.",
+    "Scars carry both the weight of pain and the lightness of survival.",
+    "Every scar is the ending of a wound and the beginning of resilience.",
+    "The scars we carry are proof that we kept going anyway.",
+    "What broke the skin also built the character.",
+    "A scar doesn't ask for pity, only acknowledgment.",
+    "Every scar you carry is a quiet testament to your endurance.",
+    "The wound closes, but the story it left behind stays.",
+    "Scars remind you that you are stronger than what tried to break you.",
+    "What scars you also shapes you.",
 
     ## Bravery
-    "Courage isn't the absence of fear, it's action despite it."
-    "The bravest people feel fear and move forward anyway."
-    "Every act of courage starts as a quiet decision."
-    "Fear shrinks the moment you face it directly."
-    "Bravery isn't loud; it's often a quiet, private choice."
-    "What scares you the most often teaches you the most."
-    "Courage grows every time you choose it over comfort."
-    "The bravest choice is often the one no one applauds."
-    "Fear is a signal, not a stop sign."
-    "Boldness is choosing progress over the safety of staying still."
-    "Courage doesn't remove fear, it simply outweighs it."
-    "Every act of bravery starts with a single uncomfortable decision."
-    "Fear fades the moment action begins."
-    "The bravest people are often the quietest about their battles."
-    "True courage is showing up even when you're not ready."
-    "Bravery is standing firm when it would be easier to fold."
-    "The most courageous act is often simply being honest."
-    "Every brave heart still carries doubt, it just refuses to obey it."
-    "Courage doesn't wait for confidence to arrive first."
-    "What feels impossible today is often just brave enough to try."
-    "Bravery lives in the decision made before the outcome is known."
-    "The quiet kind of courage shows up every ordinary day."
-    "What you're afraid to attempt is often exactly what you need to try."
-    "Every brave step forward makes the next one easier."
-    "Bravery isn't the absence of trembling hands, it's using them anyway."
-    "The strongest people are the ones who kept moving while scared."
-    "Courage is a muscle, it grows stronger with use."
-    "Every act of vulnerability is an act of quiet bravery."
-    "What takes the most courage rarely announces itself as brave."
-    "Bravery often looks like showing up on an ordinary Tuesday."
-    "The bravest hearts still choose hope after disappointment."
-    "Courage doesn't need an audience to be real."
-    "What you face despite fear becomes the proof of your strength."
-    "Every brave decision is a small rebellion against doubt."
-    "Bravery is choosing the harder right over the easier wrong."
-    "The bravest thing you can do is begin again."
+    "Courage isn't the absence of fear, it's action despite it.",
+    "The bravest people feel fear and move forward anyway.",
+    "Every act of courage starts as a quiet decision.",
+    "Fear shrinks the moment you face it directly.",
+    "Bravery isn't loud; it's often a quiet, private choice.",
+    "What scares you the most often teaches you the most.",
+    "Courage grows every time you choose it over comfort.",
+    "The bravest choice is often the one no one applauds.",
+    "Fear is a signal, not a stop sign.",
+    "Boldness is choosing progress over the safety of staying still.",
+    "Courage doesn't remove fear, it simply outweighs it.",
+    "Every act of bravery starts with a single uncomfortable decision.",
+    "Fear fades the moment action begins.",
+    "The bravest people are often the quietest about their battles.",
+    "True courage is showing up even when you're not ready.",
+    "Bravery is standing firm when it would be easier to fold.",
+    "The most courageous act is often simply being honest.",
+    "Every brave heart still carries doubt, it just refuses to obey it.",
+    "Courage doesn't wait for confidence to arrive first.",
+    "What feels impossible today is often just brave enough to try.",
+    "Bravery lives in the decision made before the outcome is known.",
+    "The quiet kind of courage shows up every ordinary day.",
+    "What you're afraid to attempt is often exactly what you need to try.",
+    "Every brave step forward makes the next one easier.",
+    "Bravery isn't the absence of trembling hands, it's using them anyway.",
+    "The strongest people are the ones who kept moving while scared.",
+    "Courage is a muscle, it grows stronger with use.",
+    "Every act of vulnerability is an act of quiet bravery.",
+    "What takes the most courage rarely announces itself as brave.",
+    "Bravery often looks like showing up on an ordinary Tuesday.",
+    "The bravest hearts still choose hope after disappointment.",
+    "Courage doesn't need an audience to be real.",
+    "What you face despite fear becomes the proof of your strength.",
+    "Every brave decision is a small rebellion against doubt.",
+    "Bravery is choosing the harder right over the easier wrong.",
+    "The bravest thing you can do is begin again.",
 
     ## Patience
-    "Patience is the discipline of hope."
-    "What grows slowly often grows the strongest."
-    "Good things rarely arrive on a rushed timeline."
-    "Patience turns waiting into preparation."
-    "The seed doesn't argue with the season, it simply waits."
-    "Every masterpiece required more patience than talent."
-    "What you rush often needs to be redone."
-    "Patience is trusting the process even when you can't see the progress."
-    "Some things can't be forced, only allowed to unfold."
-    "The most valuable things take the longest to build."
-    "Patience isn't passive, it's quiet persistence."
-    "What feels slow now often looks perfectly timed later."
-    "The river carves the canyon not by force, but by time."
-    "Patience is choosing calm over the urge to control the outcome."
-    "Every strong foundation was built one patient layer at a time."
-    "What you wait for with grace arrives with less resistance."
-    "Patience is the quiet confidence that timing will align."
-    "The garden doesn't grow faster because you check it daily."
-    "Every delay can be a redirection instead of a setback."
-    "What takes time to build rarely falls apart quickly."
-    "Patience is the bridge between effort and result."
-    "Some seasons exist only to teach you how to wait well."
-    "The strongest people learn patience through the hardest waiting."
-    "What you can't rush, you must learn to trust."
-    "Patience with the process is patience with yourself."
-    "Every slow season is preparing you for a faster one."
-    "The wait is rarely wasted, even when it feels that way."
-    "Patience turns frustration into quiet resolve."
-    "What you plant today may not bloom for seasons."
-    "The calm you show while waiting reflects the faith you carry inside."
-    "Patience isn't giving up on urgency, it's giving in to timing."
-    "Every good thing worth having required someone's patience first."
-    "What feels stagnant is often quietly growing roots."
-    "Patience is the art of trusting a process you can't yet see the end of."
-    "Some victories are won simply by outlasting the doubt."
-    "The strongest trees grew slowest, and stood the longest."
+    "Patience is the discipline of hope.",
+    "What grows slowly often grows the strongest.",
+    "Good things rarely arrive on a rushed timeline.",
+    "Patience turns waiting into preparation.",
+    "The seed doesn't argue with the season, it simply waits.",
+    "Every masterpiece required more patience than talent.",
+    "What you rush often needs to be redone.",
+    "Patience is trusting the process even when you can't see the progress.",
+    "Some things can't be forced, only allowed to unfold.",
+    "The most valuable things take the longest to build.",
+    "Patience isn't passive, it's quiet persistence.",
+    "What feels slow now often looks perfectly timed later.",
+    "The river carves the canyon not by force, but by time.",
+    "Patience is choosing calm over the urge to control the outcome.",
+    "Every strong foundation was built one patient layer at a time.",
+    "What you wait for with grace arrives with less resistance.",
+    "Patience is the quiet confidence that timing will align.",
+    "The garden doesn't grow faster because you check it daily.",
+    "Every delay can be a redirection instead of a setback.",
+    "What takes time to build rarely falls apart quickly.",
+    "Patience is the bridge between effort and result.",
+    "Some seasons exist only to teach you how to wait well.",
+    "The strongest people learn patience through the hardest waiting.",
+    "What you can't rush, you must learn to trust.",
+    "Patience with the process is patience with yourself.",
+    "Every slow season is preparing you for a faster one.",
+    "The wait is rarely wasted, even when it feels that way.",
+    "Patience turns frustration into quiet resolve.",
+    "What you plant today may not bloom for seasons.",
+    "The calm you show while waiting reflects the faith you carry inside.",
+    "Patience isn't giving up on urgency, it's giving in to timing.",
+    "Every good thing worth having required someone's patience first.",
+    "What feels stagnant is often quietly growing roots.",
+    "Patience is the art of trusting a process you can't yet see the end of.",
+    "Some victories are won simply by outlasting the doubt.",
+    "The strongest trees grew slowest, and stood the longest.",
 
     ## Technology
-    "Technology should serve human connection, not replace it."
-    "The best tools disappear into the work they make possible."
-    "Innovation means nothing without responsibility attached to it."
-    "Every new tool is only as wise as the hands that use it."
-    "Technology moves fast, but wisdom should still set the pace."
-    "The right tool doesn't do the thinking for you, it clears space for it."
-    "Progress in technology means little without progress in ethics."
-    "Every algorithm reflects the values of the people who built it."
-    "The future belongs to those who use technology without being used by it."
-    "Simplicity is the truest sign of thoughtful design."
-    "Every device should give back more time than it takes."
-    "Technology amplifies intention, for better or worse."
-    "The best innovations solve real problems quietly."
-    "What technology automates should free people to create more, not less."
-    "Every screen is a window, but not every window shows the truth."
-    "Progress without purpose is just motion."
-    "The tools we build eventually shape the way we think."
-    "Technology should reduce friction, not multiply distraction."
-    "Every system reflects the assumptions of its creators."
-    "Innovation is only meaningful when it improves a real life."
-    "The smartest technology still needs a wise hand guiding it."
-    "What we automate reveals what we value most."
-    "Technology connects the world, but presence still requires intention."
-    "Every advancement carries both opportunity and responsibility."
-    "The measure of good technology is how invisible it becomes."
-    "Progress should make life simpler, not just faster."
-    "Every new platform is only as good as the community it builds."
-    "Technology is a mirror, it reflects who we already are."
-    "The future isn't built by tools alone, but by intention behind them."
-    "What you build with technology should outlast the trend that inspired it."
-    "Every line of code carries a small piece of its author's judgment."
-    "Innovation without empathy builds tools nobody actually needs."
-    "Technology should expand access, not just convenience."
-    "The best products solve problems people didn't know how to name."
-    "Every update should ask what it's removing, not just what it's adding."
-    "Progress means little if it leaves people more isolated than before."
+    "Technology should serve human connection, not replace it.",
+    "The best tools disappear into the work they make possible.",
+    "Innovation means nothing without responsibility attached to it.",
+    "Every new tool is only as wise as the hands that use it.",
+    "Technology moves fast, but wisdom should still set the pace.",
+    "The right tool doesn't do the thinking for you, it clears space for it.",
+    "Progress in technology means little without progress in ethics.",
+    "Every algorithm reflects the values of the people who built it.",
+    "The future belongs to those who use technology without being used by it.",
+    "Simplicity is the truest sign of thoughtful design.",
+    "Every device should give back more time than it takes.",
+    "Technology amplifies intention, for better or worse.",
+    "The best innovations solve real problems quietly.",
+    "What technology automates should free people to create more, not less.",
+    "Every screen is a window, but not every window shows the truth.",
+    "Progress without purpose is just motion.",
+    "The tools we build eventually shape the way we think.",
+    "Technology should reduce friction, not multiply distraction.",
+    "Every system reflects the assumptions of its creators.",
+    "Innovation is only meaningful when it improves a real life.",
+    "The smartest technology still needs a wise hand guiding it.",
+    "What we automate reveals what we value most.",
+    "Technology connects the world, but presence still requires intention.",
+    "Every advancement carries both opportunity and responsibility.",
+    "The measure of good technology is how invisible it becomes.",
+    "Progress should make life simpler, not just faster.",
+    "Every new platform is only as good as the community it builds.",
+    "Technology is a mirror, it reflects who we already are.",
+    "The future isn't built by tools alone, but by intention behind them.",
+    "What you build with technology should outlast the trend that inspired it.",
+    "Every line of code carries a small piece of its author's judgment.",
+    "Innovation without empathy builds tools nobody actually needs.",
+    "Technology should expand access, not just convenience.",
+    "The best products solve problems people didn't know how to name.",
+    "Every update should ask what it's removing, not just what it's adding.",
+    "Progress means little if it leaves people more isolated than before.",
 
-## Creativity
-"Creativity thrives where fear of judgment ends."
-"The blank page is an invitation, not a threat."
-"Every idea deserves the chance to exist before it's judged."
-"Imagination is the beginning of everything that's ever been built."
-"What you create reflects a piece of who you are."
-"The world needs your voice exactly as it is."
-"Every artist doubts their work; the difference is they keep creating anyway."
-"Creativity requires permission only from yourself."
-"What you imagine today, someone will build tomorrow."
-"The act of creating is an act of quiet rebellion against doubt."
-"Every constraint forces a more inventive solution."
-"Originality is just familiar ideas combined in an unfamiliar way."
-"Creativity dies in perfectionism and grows in play."
-"The first draft is rarely the truth, it's just the starting point."
-"Every creative block is often just fear wearing a disguise."
-"What you make doesn't need to be perfect, it needs to exist."
-"Curiosity is the fuel that creativity burns."
-"Every great idea started as a fragile, unfinished thought."
-"Creativity rewards those who show up even when inspiration doesn't."
-"The best ideas often arrive disguised as bad ones at first."
-"What you're willing to make badly is the price of making anything well."
-"Every creative person needs both discipline and freedom to thrive."
-"Imagination doesn't need permission, only attention."
-"The world remembers those brave enough to make something new."
-"Every finished project began as a messy, uncertain start."
-"Creativity is intelligence having fun."
-"What you dare to imagine shapes what eventually gets built."
-"Every artist's fear is proof the work matters to them."
-"The muse rewards consistency more than mood."
-"Creativity flourishes in the space between structure and freedom."
-"Every unfinished idea is still worth finishing."
-"What feels like failure in creation is often just revision in disguise."
-"The most original work often comes from the most honest place."
-"Every act of making is an act of hope."
-"Creativity is less about talent and more about persistence."
-"What you create today adds to a story only you could tell."
+    ## Creativity
+    "Creativity thrives where fear of judgment ends.",
+    "The blank page is an invitation, not a threat.",
+    "Every idea deserves the chance to exist before it's judged.",
+    "Imagination is the beginning of everything that's ever been built.",
+    "What you create reflects a piece of who you are.",
+    "The world needs your voice exactly as it is.",
+    "Every artist doubts their work; the difference is they keep creating anyway.",
+    "Creativity requires permission only from yourself.",
+    "What you imagine today, someone will build tomorrow.",
+    "The act of creating is an act of quiet rebellion against doubt.",
+    "Every constraint forces a more inventive solution.",
+    "Originality is just familiar ideas combined in an unfamiliar way.",
+    "Creativity dies in perfectionism and grows in play.",
+    "The first draft is rarely the truth, it's just the starting point.",
+    "Every creative block is often just fear wearing a disguise.",
+    "What you make doesn't need to be perfect, it needs to exist.",
+    "Curiosity is the fuel that creativity burns.",
+    "Every great idea started as a fragile, unfinished thought.",
+    "Creativity rewards those who show up even when inspiration doesn't.",
+    "The best ideas often arrive disguised as bad ones at first.",
+    "What you're willing to make badly is the price of making anything well.",
+    "Every creative person needs both discipline and freedom to thrive.",
+    "Imagination doesn't need permission, only attention.",
+    "The world remembers those brave enough to make something new.",
+    "Every finished project began as a messy, uncertain start.",
+    "Creativity is intelligence having fun.",
+    "What you dare to imagine shapes what eventually gets built.",
+    "Every artist's fear is proof the work matters to them.",
+    "The muse rewards consistency more than mood.",
+    "Creativity flourishes in the space between structure and freedom.",
+    "Every unfinished idea is still worth finishing.",
+    "What feels like failure in creation is often just revision in disguise.",
+    "The most original work often comes from the most honest place.",
+    "Every act of making is an act of hope.",
+    "Creativity is less about talent and more about persistence.",
+    "What you create today adds to a story only you could tell.",
 
-## Business
-"Every strong business is built on trust before it's built on profit."
-"The best companies solve problems people didn't know they had."
-"Growth without values eventually collapses under its own weight."
-"Every customer relationship is a promise waiting to be kept."
-"The market rewards consistency more than brilliance."
-"Success in business starts with listening more than pitching."
-"Every good product begins with a genuine problem worth solving."
-"Profit follows purpose more often than the reverse."
-"The strongest brands are built on reputation, not marketing alone."
-"Every failure in business carries a lesson worth more than the loss."
-"What you build with integrity outlasts what you build with hype."
-"The best leaders in business serve their teams before their titles."
-"Every negotiation should aim for value, not just victory."
-"Sustainable growth beats rapid growth built on shortcuts."
-"The strongest companies adapt without losing their core values."
-"Every satisfied customer becomes a quiet form of advertising."
-"What you invest in your people shows up in your results."
-"The best strategy means little without consistent execution."
-"Every pivot is a lesson learned faster than expected."
-"Trust, once broken with a customer, is expensive to rebuild."
-"The smartest businesses plan for the long game, not just the quarter."
-"Every team's culture is shaped more by actions than mission statements."
-"What you measure in a business reveals what you actually value."
-"The best partnerships are built on shared vision, not just shared interest."
-"Every risk in business should be calculated, not just hoped for."
-"Reputation takes years to build and moments to lose."
-"The strongest companies treat feedback as a gift, not a threat."
-"Every dollar spent should serve a purpose beyond the transaction."
-"What separates good businesses from great ones is attention to detail."
-"The best entrepreneurs fail often but learn faster than they fail."
-"Every market shifts eventually, adaptability is the only constant advantage."
-"Consistency in delivery builds more loyalty than any promotion."
+    ## Business
+    "Every strong business is built on trust before it's built on profit.",
+    "The best companies solve problems people didn't know they had.",
+    "Growth without values eventually collapses under its own weight.",
+    "Every customer relationship is a promise waiting to be kept.",
+    "The market rewards consistency more than brilliance.",
+    "Success in business starts with listening more than pitching.",
+    "Every good product begins with a genuine problem worth solving.",
+    "Profit follows purpose more often than the reverse.",
+    "The strongest brands are built on reputation, not marketing alone.",
+    "Every failure in business carries a lesson worth more than the loss.",
+    "What you build with integrity outlasts what you build with hype.",
+    "The best leaders in business serve their teams before their titles.",
+    "Every negotiation should aim for value, not just victory.",
+    "Sustainable growth beats rapid growth built on shortcuts.",
+    "The strongest companies adapt without losing their core values.",
+    "Every satisfied customer becomes a quiet form of advertising.",
+    "What you invest in your people shows up in your results.",
+    "The best strategy means little without consistent execution.",
+    "Every pivot is a lesson learned faster than expected.",
+    "Trust, once broken with a customer, is expensive to rebuild.",
+    "The smartest businesses plan for the long game, not just the quarter.",
+    "Every team's culture is shaped more by actions than mission statements.",
+    "What you measure in a business reveals what you actually value.",
+    "The best partnerships are built on shared vision, not just shared interest.",
+    "Every risk in business should be calculated, not just hoped for.",
+    "Reputation takes years to build and moments to lose.",
+    "The strongest companies treat feedback as a gift, not a threat.",
+    "Every dollar spent should serve a purpose beyond the transaction.",
+    "What separates good businesses from great ones is attention to detail.",
+    "The best entrepreneurs fail often but learn faster than they fail.",
+    "Every market shifts eventually, adaptability is the only constant advantage.",
+    "Consistency in delivery builds more loyalty than any promotion.",
 
-## Leadership
-"Leadership is influence, not authority."
-"The best leaders create more leaders, not more followers."
-"Every strong team reflects the character of its leader."
-"Leading well means listening more than speaking."
-"The best leaders serve before they command."
-"What you model as a leader matters more than what you say."
-"Every leader's real test comes during the hardest decisions."
-"Trust is the currency every leader must earn and protect."
-"The best leadership decisions consider the team, not just the outcome."
-"Every good leader admits mistakes before being asked to."
-"Leadership isn't about having all the answers, it's about asking the right questions."
-"The strongest leaders empower rather than control."
-"Every team performs best under leaders who believe in their potential."
-"What a leader tolerates becomes the standard for the team."
-"Leadership is accountability in action, not just in words."
-"The best leaders make space for other voices to be heard."
-"Every crisis reveals the true character of a leader."
-"Leading with empathy builds loyalty that authority alone cannot."
-"The strongest leaders remain students, even after they've earned expertise."
-"What you invest in your team reflects your true priorities as a leader."
-"Every decision a leader makes ripples further than they realize."
-"Leadership means carrying the weight so others don't have to carry it alone."
-"The best leaders inspire ownership, not just obedience."
-"Every leader's legacy is measured by the people they lifted up."
-"Leading by example is slower, but it's the only version that lasts."
-"The strongest leaders stay calm when everyone else feels the pressure."
-"What you say in leadership matters less than what you consistently do."
-"Every great leader knows when to step back and let others shine."
-"Leadership requires humility more than confidence."
-"The best leaders build systems that outlast their own involvement."
-"Every team's trust in a leader is built one honest moment at a time."
-"Leadership is a responsibility, not a reward."
+    ## Leadership
+    "Leadership is influence, not authority.",
+    "The best leaders create more leaders, not more followers.",
+    "Every strong team reflects the character of its leader.",
+    "Leading well means listening more than speaking.",
+    "The best leaders serve before they command.",
+    "What you model as a leader matters more than what you say.",
+    "Every leader's real test comes during the hardest decisions.",
+    "Trust is the currency every leader must earn and protect.",
+    "The best leadership decisions consider the team, not just the outcome.",
+    "Every good leader admits mistakes before being asked to.",
+    "Leadership isn't about having all the answers, it's about asking the right questions.",
+    "The strongest leaders empower rather than control.",
+    "Every team performs best under leaders who believe in their potential.",
+    "What a leader tolerates becomes the standard for the team.",
+    "Leadership is accountability in action, not just in words.",
+    "The best leaders make space for other voices to be heard.",
+    "Every crisis reveals the true character of a leader.",
+    "Leading with empathy builds loyalty that authority alone cannot.",
+    "The strongest leaders remain students, even after they've earned expertise.",
+    "What you invest in your team reflects your true priorities as a leader.",
+    "Every decision a leader makes ripples further than they realize.",
+    "Leadership means carrying the weight so others don't have to carry it alone.",
+    "The best leaders inspire ownership, not just obedience.",
+    "Every leader's legacy is measured by the people they lifted up.",
+    "Leading by example is slower, but it's the only version that lasts.",
+    "The strongest leaders stay calm when everyone else feels the pressure.",
+    "What you say in leadership matters less than what you consistently do.",
+    "Every great leader knows when to step back and let others shine.",
+    "Leadership requires humility more than confidence.",
+    "The best leaders build systems that outlast their own involvement.",
+    "Every team's trust in a leader is built one honest moment at a time.",
+    "Leadership is a responsibility, not a reward.",
 
-## Humor
-"Laughter is often the shortest distance between two strangers."
-"A good sense of humor is wisdom wearing a lighter coat."
-"Every hard day gets a little softer with a well-timed joke."
-"Humor is the quiet art of not taking yourself too seriously."
-"The best kind of funny comes from honesty, not cruelty."
-"Laughing at yourself first disarms everyone else's judgment."
-"Every great joke holds a small piece of truth inside it."
-"Humor can carry a hard truth further than a serious tone ever could."
-"The people who laugh easily often heal more easily too."
-"A shared laugh builds trust faster than a shared meeting."
-"Every comedian is secretly a philosopher with better timing."
-"Humor is how the heart survives what logic can't explain."
-"The lightest moments often carry the deepest relief."
-"Every good laugh resets a tense room faster than any speech."
-"Humor is proof that even hard things can be held gently."
-"Laughing together builds a bond that arguing rarely can."
-"The wittiest people are often the most observant ones."
-"A joke well timed can defuse what an argument never could."
-"Every sense of humor is a quiet form of resilience."
-"Humor lets you say the hard thing without breaking the room."
-"Laughter doesn't fix the problem, but it makes carrying it lighter."
-"Every funny moment is a small act of rebellion against despair."
-"The best humor punches up, never down."
-"A shared inside joke is its own kind of friendship contract."
-"Humor is often just honesty with better comedic timing."
-"The ability to laugh at chaos is its own kind of leadership."
-"Every good joke needs a foundation of trust to land well."
-"Laughing at hardship doesn't ignore it, it just refuses to be ruled by it."
-"Humor reminds us that seriousness isn't the only sign of depth."
-"Every group with a shared sense of humor survives hard times better."
-"Wit is intelligence that learned how to have fun."
-"The people who make you laugh often understand you the deepest."
+    ## Humor
+    "Laughter is often the shortest distance between two strangers.",
+    "A good sense of humor is wisdom wearing a lighter coat.",
+    "Every hard day gets a little softer with a well-timed joke.",
+    "Humor is the quiet art of not taking yourself too seriously.",
+    "The best kind of funny comes from honesty, not cruelty.",
+    "Laughing at yourself first disarms everyone else's judgment.",
+    "Every great joke holds a small piece of truth inside it.",
+    "Humor can carry a hard truth further than a serious tone ever could.",
+    "The people who laugh easily often heal more easily too.",
+    "A shared laugh builds trust faster than a shared meeting.",
+    "Every comedian is secretly a philosopher with better timing.",
+    "Humor is how the heart survives what logic can't explain.",
+    "The lightest moments often carry the deepest relief.",
+    "Every good laugh resets a tense room faster than any speech.",
+    "Humor is proof that even hard things can be held gently.",
+    "Laughing together builds a bond that arguing rarely can.",
+    "The wittiest people are often the most observant ones.",
+    "A joke well timed can defuse what an argument never could.",
+    "Every sense of humor is a quiet form of resilience.",
+    "Humor lets you say the hard thing without breaking the room.",
+    "Laughter doesn't fix the problem, but it makes carrying it lighter.",
+    "Every funny moment is a small act of rebellion against despair.",
+    "The best humor punches up, never down.",
+    "A shared inside joke is its own kind of friendship contract.",
+    "Humor is often just honesty with better comedic timing.",
+    "The ability to laugh at chaos is its own kind of leadership.",
+    "Every good joke needs a foundation of trust to land well.",
+    "Laughing at hardship doesn't ignore it, it just refuses to be ruled by it.",
+    "Humor reminds us that seriousness isn't the only sign of depth.",
+    "Every group with a shared sense of humor survives hard times better.",
+    "Wit is intelligence that learned how to have fun.",
+    "The people who make you laugh often understand you the deepest.",
 
-## Curiosity
-"Curiosity keeps the mind young long after the body ages."
-"Every question asked honestly moves you closer to truth."
-"What you're curious about often points toward your purpose."
-"Curiosity is the antidote to a closed and rigid mind."
-"Every "why" asked sincerely leads closer to understanding."
-"What you explore with an open mind expands your entire perspective."
-"Curiosity turns ordinary days into opportunities for discovery."
-"Every unanswered question is an invitation to keep learning."
-"The curious mind never runs out of places to explore."
-"What sparks your curiosity often reveals what you truly value."
-"Curiosity is the engine behind every great discovery."
-"Every child's endless questions are a reminder of what adults forget to ask."
-"The most interesting people are usually the most curious ones."
-"Curiosity doesn't need permission to keep asking."
-"Every field of knowledge began with someone simply wondering why."
-"What you stay curious about, you rarely stop growing in."
-"Curiosity turns strangers into stories worth hearing."
-"Every new question replaces an old, comfortable assumption."
-"The curious traveler sees more than the map ever shows."
-"What you're willing to explore shapes what you eventually understand."
-"Curiosity is a quiet act of humility, admitting there's more to learn."
-"Every conversation improves with a genuinely curious question."
-"The mind that stays curious rarely stays bored."
-"What sparks wonder in you deserves more of your attention."
-"Curiosity is the difference between existing and truly noticing."
-"Every great idea began with someone asking, "what if.""
-"The curious never stop finding new doors in familiar hallways."
-"What you approach with curiosity rarely feels like a threat."
-"Curiosity is the quiet fuel behind every lifelong learner."
-"Every question worth asking deserves an honest attempt to answer."
-"The world rewards those who never stop asking questions."
-"Curiosity turns the mundane into something worth a second look."
+    ## Curiosity
+    "Curiosity keeps the mind young long after the body ages.",
+    "Every question asked honestly moves you closer to truth.",
+    "What you're curious about often points toward your purpose.",
+    "Curiosity is the antidote to a closed and rigid mind.",
+    "Every "why" asked sincerely leads closer to understanding.",
+    "What you explore with an open mind expands your entire perspective.",
+    "Curiosity turns ordinary days into opportunities for discovery.",
+    "Every unanswered question is an invitation to keep learning.",
+    "The curious mind never runs out of places to explore.",
+    "What sparks your curiosity often reveals what you truly value.",
+    "Curiosity is the engine behind every great discovery.",
+    "Every child's endless questions are a reminder of what adults forget to ask.",
+    "The most interesting people are usually the most curious ones.",
+    "Curiosity doesn't need permission to keep asking.",
+    "Every field of knowledge began with someone simply wondering why.",
+    "What you stay curious about, you rarely stop growing in.",
+    "Curiosity turns strangers into stories worth hearing.",
+    "Every new question replaces an old, comfortable assumption.",
+    "The curious traveler sees more than the map ever shows.",
+    "What you're willing to explore shapes what you eventually understand.",
+    "Curiosity is a quiet act of humility, admitting there's more to learn.",
+    "Every conversation improves with a genuinely curious question.",
+    "The mind that stays curious rarely stays bored.",
+    "What sparks wonder in you deserves more of your attention.",
+    "Curiosity is the difference between existing and truly noticing.",
+    "Every great idea began with someone asking, "what if."",
+    "The curious never stop finding new doors in familiar hallways.",
+    "What you approach with curiosity rarely feels like a threat.",
+    "Curiosity is the quiet fuel behind every lifelong learner.",
+    "Every question worth asking deserves an honest attempt to answer.",
+    "The world rewards those who never stop asking questions.",
+    "Curiosity turns the mundane into something worth a second look.",
 
-## Science
-"Every scientific discovery began with someone questioning what everyone else accepted."
-"Science thrives on being proven wrong; that's how it grows."
-"The universe rewards patience more than certainty."
-"Every experiment that fails still teaches something the successful ones can't."
-"Curiosity is the compass, method is the map."
-"Science doesn't claim to know everything, it claims to keep asking."
-"Every theory is only as strong as its willingness to be tested."
-"The smallest particles hold some of the universe's biggest secrets."
-"Every discovery once sounded impossible before it became obvious."
-"Science is humanity's most honest way of admitting what it doesn't know."
-"What we understand about the stars still fits in a small fraction of the sky."
-"Every hypothesis deserves scrutiny before it earns belief."
-"The scientific method is simply curiosity with careful discipline."
-"What seems like magic is often just science not yet explained."
-"Every field of science builds on the failures of the ones before it."
-"Observation is the quietest form of discovery."
-"The universe doesn't reveal its answers to those who stop asking questions."
-"Every breakthrough stands on the shoulders of a thousand quiet failures."
-"Science moves forward one disproven assumption at a time."
-"What nature hides, patient observation eventually uncovers."
-"Every scientist begins as a curious child who never stopped wondering."
-"The truth in science is rarely convenient, but it's always worth pursuing."
-"Every equation is a sentence written in the language of the universe."
-"Discovery favors those willing to be wrong in public."
-"The smallest data point can quietly rewrite an entire theory."
-"Every scientific revolution started as a rejected idea."
-"What we call knowledge today is often tomorrow's outdated theory."
-"Science is proof that wonder and rigor can coexist."
-"Every experiment is a conversation between a question and the universe."
-"The lab teaches patience faster than any lecture can."
-"What repeats reliably becomes the foundation for what comes next."
-"Every scientific field is built from centuries of careful doubt."
-"Discovery rewards the ones who look twice at what everyone else overlooked."
-"Science, at its best, is curiosity with a commitment to the truth."
-"Every constant in physics hides a story of decades of testing."
-"What the microscope reveals often changes what the naked eye assumed."
-"Science doesn't fear being wrong, it fears staying wrong."
-"Every new discovery reshapes the boundary of what seems possible."
-"The universe keeps its secrets only until someone is patient enough to ask."
-"Curiosity paired with evidence is how understanding is built."
+    ## Science
+    "Every scientific discovery began with someone questioning what everyone else accepted.",
+    "Science thrives on being proven wrong; that's how it grows.",
+    "The universe rewards patience more than certainty.",
+    "Every experiment that fails still teaches something the successful ones can't.",
+    "Curiosity is the compass, method is the map.",
+    "Science doesn't claim to know everything, it claims to keep asking.",
+    "Every theory is only as strong as its willingness to be tested.",
+    "The smallest particles hold some of the universe's biggest secrets.",
+    "Every discovery once sounded impossible before it became obvious.",
+    "Science is humanity's most honest way of admitting what it doesn't know.",
+    "What we understand about the stars still fits in a small fraction of the sky.",
+    "Every hypothesis deserves scrutiny before it earns belief.",
+    "The scientific method is simply curiosity with careful discipline.",
+    "What seems like magic is often just science not yet explained.",
+    "Every field of science builds on the failures of the ones before it.",
+    "Observation is the quietest form of discovery.",
+    "The universe doesn't reveal its answers to those who stop asking questions.",
+    "Every breakthrough stands on the shoulders of a thousand quiet failures.",
+    "Science moves forward one disproven assumption at a time.",
+    "What nature hides, patient observation eventually uncovers.",
+    "Every scientist begins as a curious child who never stopped wondering.",
+    "The truth in science is rarely convenient, but it's always worth pursuing.",
+    "Every equation is a sentence written in the language of the universe.",
+    "Discovery favors those willing to be wrong in public.",
+    "The smallest data point can quietly rewrite an entire theory.",
+    "Every scientific revolution started as a rejected idea.",
+    "What we call knowledge today is often tomorrow's outdated theory.",
+    "Science is proof that wonder and rigor can coexist.",
+    "Every experiment is a conversation between a question and the universe.",
+    "The lab teaches patience faster than any lecture can.",
+    "What repeats reliably becomes the foundation for what comes next.",
+    "Every scientific field is built from centuries of careful doubt.",
+    "Discovery rewards the ones who look twice at what everyone else overlooked.",
+    "Science, at its best, is curiosity with a commitment to the truth.",
+    "Every constant in physics hides a story of decades of testing.",
+    "What the microscope reveals often changes what the naked eye assumed.",
+    "Science doesn't fear being wrong, it fears staying wrong.",
+    "Every new discovery reshapes the boundary of what seems possible.",
+    "The universe keeps its secrets only until someone is patient enough to ask.",
+    "Curiosity paired with evidence is how understanding is built.",
 
-## Learning
-"Every expert was once a beginner who refused to quit."
-"The mind that stays open receives more than the mind that stays certain."
-"Learning never ends; it only changes direction."
-"What you refuse to learn will keep repeating itself in your life."
-"Every mistake is data, not a verdict."
-"Growth happens in the space between confusion and clarity."
-"The best students remain curious long after the classroom ends."
-"Every skill mastered was once a frustrating first attempt."
-"What you practice deliberately eventually becomes effortless."
-"Learning requires the humility to admit what you don't yet know."
-"Every lesson repeats itself until it's finally understood."
-"The fastest way to learn is to teach what you just discovered."
-"What feels difficult today becomes intuitive with enough repetition."
-"Every question asked in class benefits more than just the one asking."
-"Learning is uncomfortable because growth always is."
-"The best teachers create curiosity, not just knowledge."
-"Every book read adds a new lens to see the world through."
-"What you learn slowly, you tend to remember longest."
-"Learning by doing teaches faster than learning by watching."
-"Every failure in learning is simply feedback in disguise."
-"The beginner's mind sees possibilities the expert's mind overlooks."
-"What you're willing to be bad at first, you can eventually be great at."
-"Learning thrives in an environment that allows for mistakes."
-"Every new skill rewires the brain a little more each time it's practiced."
-"The best learners ask more questions than they answer."
-"What you understand deeply, you can explain simply."
-"Learning is a lifelong apprenticeship with no final graduation."
-"Every subject holds more depth than a single lifetime can fully explore."
-"Reflection turns experience into actual learning."
-"What you review consistently, you retain permanently."
-"Every learner benefits from patience more than raw talent."
-"Growth mindset turns obstacles into invitations rather than barriers."
-"Learning to unlearn old habits is as valuable as learning new skills."
-"Every expert's confidence was built on years of feeling like a beginner."
-"What you're curious enough to study, you eventually come to understand."
-"Learning rewards consistency over intensity, every single time."
+    ## Learning
+    "Every expert was once a beginner who refused to quit.",
+    "The mind that stays open receives more than the mind that stays certain.",
+    "Learning never ends; it only changes direction.",
+    "What you refuse to learn will keep repeating itself in your life.",
+    "Every mistake is data, not a verdict.",
+    "Growth happens in the space between confusion and clarity.",
+    "The best students remain curious long after the classroom ends.",
+    "Every skill mastered was once a frustrating first attempt.",
+    "What you practice deliberately eventually becomes effortless.",
+    "Learning requires the humility to admit what you don't yet know.",
+    "Every lesson repeats itself until it's finally understood.",
+    "The fastest way to learn is to teach what you just discovered.",
+    "What feels difficult today becomes intuitive with enough repetition.",
+    "Every question asked in class benefits more than just the one asking.",
+    "Learning is uncomfortable because growth always is.",
+    "The best teachers create curiosity, not just knowledge.",
+    "Every book read adds a new lens to see the world through.",
+    "What you learn slowly, you tend to remember longest.",
+    "Learning by doing teaches faster than learning by watching.",
+    "Every failure in learning is simply feedback in disguise.",
+    "The beginner's mind sees possibilities the expert's mind overlooks.",
+    "What you're willing to be bad at first, you can eventually be great at.",
+    "Learning thrives in an environment that allows for mistakes.",
+    "Every new skill rewires the brain a little more each time it's practiced.",
+    "The best learners ask more questions than they answer.",
+    "What you understand deeply, you can explain simply.",
+    "Learning is a lifelong apprenticeship with no final graduation.",
+    "Every subject holds more depth than a single lifetime can fully explore.",
+    "Reflection turns experience into actual learning.",
+    "What you review consistently, you retain permanently.",
+    "Every learner benefits from patience more than raw talent.",
+    "Growth mindset turns obstacles into invitations rather than barriers.",
+    "Learning to unlearn old habits is as valuable as learning new skills.",
+    "Every expert's confidence was built on years of feeling like a beginner.",
+    "What you're curious enough to study, you eventually come to understand.",
+    "Learning rewards consistency over intensity, every single time.",
 
-## Coding
-"Every line of code is a small decision that shapes the whole system."
-"Clean code is a gift to the person who reads it next, including future you."
-"Debugging teaches patience faster than almost anything else."
-"Every bug fixed is a lesson learned about how the system really works."
-"The best code is the code that's easy to delete."
-"What you name your variables reflects how clearly you understand the problem."
-"Every project benefits more from simplicity than cleverness."
-"Programming is thinking, typed out in a language machines can follow."
-"The first version rarely works, and that's exactly how it's supposed to go."
-"Every refactor is an admission that understanding has grown since the last pass."
-"Good architecture makes future changes easier, not harder."
-"What compiles isn't always what's correct."
-"Every error message is the computer's way of asking a clarifying question."
-"The best developers write for readability, not just functionality."
-"Programming rewards patience more than raw talent."
-"Every function should do one thing, and do it clearly."
-"What seems like a small bug often points to a larger design flaw."
-"Testing isn't extra work, it's part of the actual work."
-"Every commit tells a small story about what changed and why."
-"The hardest part of coding is rarely the syntax, it's the thinking."
-"What you comment in your code is a note to your future confused self."
-"Every system that scales was once a much simpler prototype."
-"Good code communicates intent, not just instructions."
-"The best solution is often the simplest one that actually works."
-"Every framework is a set of opinions disguised as a tool."
-"Debugging is just a conversation between your assumptions and reality."
-"What breaks in production often reveals what was untested in development."
-"Every developer eventually learns that done is better than perfect."
-"Reading other people's code teaches as much as writing your own."
-"What looks messy today might just be tomorrow's necessary refactor."
-"Every algorithm is a tradeoff between speed and simplicity."
-"The best code reviews ask questions, not just point out flaws."
-"Programming teaches you to break big problems into smaller honest ones."
-"Every project has technical debt; the question is whether you manage it."
-"What you automate today saves the time you'll need tomorrow."
-"Every great engineer started by copying examples they didn't fully understand yet."
+    ## Coding
+    "Every line of code is a small decision that shapes the whole system.",
+    "Clean code is a gift to the person who reads it next, including future you.",
+    "Debugging teaches patience faster than almost anything else.",
+    "Every bug fixed is a lesson learned about how the system really works.",
+    "The best code is the code that's easy to delete.",
+    "What you name your variables reflects how clearly you understand the problem.",
+    "Every project benefits more from simplicity than cleverness.",
+    "Programming is thinking, typed out in a language machines can follow.",
+    "The first version rarely works, and that's exactly how it's supposed to go.",
+    "Every refactor is an admission that understanding has grown since the last pass.",
+    "Good architecture makes future changes easier, not harder.",
+    "What compiles isn't always what's correct.",
+    "Every error message is the computer's way of asking a clarifying question.",
+    "The best developers write for readability, not just functionality.",
+    "Programming rewards patience more than raw talent.",
+    "Every function should do one thing, and do it clearly.",
+    "What seems like a small bug often points to a larger design flaw.",
+    "Testing isn't extra work, it's part of the actual work.",
+    "Every commit tells a small story about what changed and why.",
+    "The hardest part of coding is rarely the syntax, it's the thinking.",
+    "What you comment in your code is a note to your future confused self.",
+    "Every system that scales was once a much simpler prototype.",
+    "Good code communicates intent, not just instructions.",
+    "The best solution is often the simplest one that actually works.",
+    "Every framework is a set of opinions disguised as a tool.",
+    "Debugging is just a conversation between your assumptions and reality.",
+    "What breaks in production often reveals what was untested in development.",
+    "Every developer eventually learns that done is better than perfect.",
+    "Reading other people's code teaches as much as writing your own.",
+    "What looks messy today might just be tomorrow's necessary refactor.",
+    "Every algorithm is a tradeoff between speed and simplicity.",
+    "The best code reviews ask questions, not just point out flaws.",
+    "Programming teaches you to break big problems into smaller honest ones.",
+    "Every project has technical debt; the question is whether you manage it.",
+    "What you automate today saves the time you'll need tomorrow.",
+    "Every great engineer started by copying examples they didn't fully understand yet.",
 
-## Friendship
-"Real friendship survives distance, time, and disagreement."
-"Every true friend makes space for you without being asked."
-"Friendship is shown more in actions than in words."
-"What a friend tolerates from you reveals how much they value you."
-"Every good friendship requires honesty even when it's uncomfortable."
-"The best friends celebrate your wins without keeping score."
-"Friendship isn't about being there always, it's about being there when it matters."
-"What you build with a true friend rarely needs daily maintenance to survive."
-"Every friendship worth keeping survives a few honest disagreements."
-"The right friends make you want to become a better version of yourself."
-"Friendship is loyalty that doesn't require constant proof."
-"What silence feels comfortable with a friend is a rare kind of trust."
-"Every good friend tells you the truth, even when it's not easy to hear."
-"Friendship grows stronger the more honestly it's tested."
-"The best friendships don't need explanations, only understanding."
-"What you share with a close friend often says more than what you say to anyone else."
-"Every real friend shows up in the season you need them most."
-"Friendship is choosing someone again and again, not just once."
-"The people who stay after the hard seasons are the ones worth keeping."
-"What a friend forgives easily reflects how deep the bond runs."
-"Every friendship built on honesty outlasts one built on convenience."
-"Friendship doesn't require perfection, only consistency."
-"The truest friends make ordinary days feel a little lighter."
-"What you can be fully yourself around is the mark of real friendship."
-"Every friendship worth having survives the distance life sometimes creates."
-"Friendship is a mirror that reflects both your growth and your flaws with kindness."
-"The best friends listen more than they advise."
-"What you build slowly with a friend rarely crumbles quickly."
-"Every friendship needs both grace and honesty in equal measure."
-"Friendship is a quiet kind of loyalty that doesn't need an audience."
+    ## Friendship
+    "Real friendship survives distance, time, and disagreement.",
+    "Every true friend makes space for you without being asked.",
+    "Friendship is shown more in actions than in words.",
+    "What a friend tolerates from you reveals how much they value you.",
+    "Every good friendship requires honesty even when it's uncomfortable.",
+    "The best friends celebrate your wins without keeping score.",
+    "Friendship isn't about being there always, it's about being there when it matters.",
+    "What you build with a true friend rarely needs daily maintenance to survive.",
+    "Every friendship worth keeping survives a few honest disagreements.",
+    "The right friends make you want to become a better version of yourself.",
+    "Friendship is loyalty that doesn't require constant proof.",
+    "What silence feels comfortable with a friend is a rare kind of trust.",
+    "Every good friend tells you the truth, even when it's not easy to hear.",
+    "Friendship grows stronger the more honestly it's tested.",
+    "The best friendships don't need explanations, only understanding.",
+    "What you share with a close friend often says more than what you say to anyone else.",
+    "Every real friend shows up in the season you need them most.",
+    "Friendship is choosing someone again and again, not just once.",
+    "The people who stay after the hard seasons are the ones worth keeping.",
+    "What a friend forgives easily reflects how deep the bond runs.",
+    "Every friendship built on honesty outlasts one built on convenience.",
+    "Friendship doesn't require perfection, only consistency.",
+    "The truest friends make ordinary days feel a little lighter.",
+    "What you can be fully yourself around is the mark of real friendship.",
+    "Every friendship worth having survives the distance life sometimes creates.",
+    "Friendship is a mirror that reflects both your growth and your flaws with kindness.",
+    "The best friends listen more than they advise.",
+    "What you build slowly with a friend rarely crumbles quickly.",
+    "Every friendship needs both grace and honesty in equal measure.",
+    "Friendship is a quiet kind of loyalty that doesn't need an audience.",
 
-## Decision Making
-"Every decision made with clarity is easier to stand behind later."
-"What you decide in fear often looks different than what you decide in peace."
-"Indecision is still a decision, just a slower and costlier one."
-"Every choice carries a shadow of the ones not taken."
-"The best decisions balance logic with intuition."
-"What you decide under pressure reveals your true instincts."
-"Every decision delayed too long eventually gets made by circumstance."
-"Clarity comes from action more often than from more thinking."
-"The hardest decisions are usually the ones that matter most."
-"What you choose consistently shapes who you become over time."
-"Every good decision starts with an honest look at the actual options."
-"Decision fatigue is real, so protect your energy for what matters most."
-"The bravest decisions are often made without full certainty."
-"What you decide to ignore is still a decision with consequences."
-"Every choice made with values in mind is easier to explain later."
-"Overthinking a decision rarely improves it, it just delays it."
-"The best decision makers accept that some choices will be wrong."
-"What feels like the safe choice isn't always the right one."
-"Every decision is a bet placed with incomplete information."
-"Trusting your judgment starts with actually using it."
-"The clearest decisions come after removing the noise around them."
-"What you decide today quietly shapes the options you'll have tomorrow."
-"Every hard decision gets easier once you're honest about the tradeoffs."
-"Good decision making is a skill built through practice, not luck."
-"The best choices are rarely the most comfortable ones."
-"What you decide to prioritize reveals what you actually value."
-"Every decision made with integrity is one you won't need to hide from."
-"Waiting for perfect information is its own kind of decision, usually the wrong one."
-"The strongest decision makers know when to stop deliberating and act."
-"What you choose to walk away from matters as much as what you choose to pursue."
-"Every decision teaches something, whether it turns out right or wrong."
-"Deciding with courage beats deciding with certainty, because certainty rarely arrives first."
-"The best decisions are made with a clear head, not a reactive one."
-"What you decide not to do often matters as much as what you decide to do."
-"Every good decision maker learns to separate the decision from the outcome."
-"Trusting the process of deciding matters more than always getting it right."
-"The clearest choices are made by people willing to live with the consequences."
-"What you decide in quiet moments is often more honest than what you decide in chaos."
-"Every decision is a small act of self-trust."
-"Good decisions come from asking better questions, not just gathering more answers."
-"The best decision makers stay flexible enough to change course when needed."
-"What you decide today is simply the first step of what you'll refine tomorrow."
+    ## Decision Making
+    "Every decision made with clarity is easier to stand behind later.",
+    "What you decide in fear often looks different than what you decide in peace.",
+    "Indecision is still a decision, just a slower and costlier one.",
+    "Every choice carries a shadow of the ones not taken.",
+    "The best decisions balance logic with intuition.",
+    "What you decide under pressure reveals your true instincts.",
+    "Every decision delayed too long eventually gets made by circumstance.",
+    "Clarity comes from action more often than from more thinking.",
+    "The hardest decisions are usually the ones that matter most.",
+    "What you choose consistently shapes who you become over time.",
+    "Every good decision starts with an honest look at the actual options.",
+    "Decision fatigue is real, so protect your energy for what matters most.",
+    "The bravest decisions are often made without full certainty.",
+    "What you decide to ignore is still a decision with consequences.",
+    "Every choice made with values in mind is easier to explain later.",
+    "Overthinking a decision rarely improves it, it just delays it.",
+    "The best decision makers accept that some choices will be wrong.",
+    "What feels like the safe choice isn't always the right one.",
+    "Every decision is a bet placed with incomplete information.",
+    "Trusting your judgment starts with actually using it.",
+    "The clearest decisions come after removing the noise around them.",
+    "What you decide today quietly shapes the options you'll have tomorrow.",
+    "Every hard decision gets easier once you're honest about the tradeoffs.",
+    "Good decision making is a skill built through practice, not luck.",
+    "The best choices are rarely the most comfortable ones.",
+    "What you decide to prioritize reveals what you actually value.",
+    "Every decision made with integrity is one you won't need to hide from.",
+    "Waiting for perfect information is its own kind of decision, usually the wrong one.",
+    "The strongest decision makers know when to stop deliberating and act.",
+    "What you choose to walk away from matters as much as what you choose to pursue.",
+    "Every decision teaches something, whether it turns out right or wrong.",
+    "Deciding with courage beats deciding with certainty, because certainty rarely arrives first.",
+    "The best decisions are made with a clear head, not a reactive one.",
+    "What you decide not to do often matters as much as what you decide to do.",
+    "Every good decision maker learns to separate the decision from the outcome.",
+    "Trusting the process of deciding matters more than always getting it right.",
+    "The clearest choices are made by people willing to live with the consequences.",
+    "What you decide in quiet moments is often more honest than what you decide in chaos.",
+    "Every decision is a small act of self-trust.",
+    "Good decisions come from asking better questions, not just gathering more answers.",
+    "The best decision makers stay flexible enough to change course when needed.",
+    "What you decide today is simply the first step of what you'll refine tomorrow."
+    ]
