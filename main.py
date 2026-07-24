@@ -6,6 +6,7 @@ from quotes import quotes
 from facts import facts
 from coinflip import flip_coin
 from rps import play_rps
+from riddles import play_riddle
 import time
 import random
 
@@ -100,6 +101,10 @@ while True:
 
     if user.lower() in ["rps", "rock paper scissors"]:
         play_rps()
+        continue
+
+    if user.lower() == "riddle" or "riddles" or "ask me a riddle":
+        play_riddle()
         continue
 
     print("AI:", reply(user))
