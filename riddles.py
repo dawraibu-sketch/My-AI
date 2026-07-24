@@ -400,3 +400,26 @@ riddles = [
         "answer": "flag"
     }
 ]
+
+
+
+
+
+import random
+
+def play_riddle():
+    riddle = random.choice(riddles)
+
+    print("")
+    print("🧩 Riddle")
+    print(riddle["question"])
+
+    guess = input("Your answer: ").lower()
+
+    if guess == riddle["answer"]:
+        print("")
+        print("🎉 Correct!")
+    else:
+        print("")
+        print("❌ Wrong!")
+        print("The answer was:", riddle["answer"])
