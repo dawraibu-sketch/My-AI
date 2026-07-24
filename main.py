@@ -67,10 +67,6 @@ while True:
         print("AI: You're welcome!")
         continue
 
-    if user.lower() == "help" or user.lower() == "what can you do":
-        print("AI: I can:\n- Greet you\n- Remember your name\n- Tell the time\n- Tell today's date\n- Tell who created me\n- Calculate")
-        continue
-
     if user.lower() == "calculate":
         Calculator()
         print("Back to the AI!")
@@ -112,7 +108,7 @@ while True:
         play_riddle()
         continue
 
-    if user.lower() in ["help", "commands"]:
+    if user.lower() in ["help", "commands", "what can you do", "what do you do", "what are your commands"]:
         show_help()
         continue
 
