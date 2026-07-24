@@ -90,8 +90,8 @@ while True:
     if user.lower() in ["flip a coin", "coin flip", "flip coin"]:
         flip_coin()
         continue
-        
-     if user.lower() in ["dice roll", "roll dice", "roll a dice"]:
+
+    if user.lower() in ["dice roll", "roll dice", "roll a dice"]:
         print("Rolling the dice...")
         time.sleep(1)
         print("🎲")
