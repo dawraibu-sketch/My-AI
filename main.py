@@ -7,6 +7,7 @@ from facts import facts
 from coinflip import flip_coin
 from rps import play_rps
 from riddles import play_riddle
+from help import show_help
 import time
 import random
 
@@ -109,6 +110,10 @@ while True:
         time.sleep(1.25)
         print("")
         play_riddle()
+        continue
+
+    if user.lower() in ["help", "commands"]:
+        show_help()
         continue
 
     print("AI:", reply(user))
