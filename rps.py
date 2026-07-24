@@ -1,4 +1,5 @@
 import random
+import time
 
 choices = ["rock", "paper", "scissors"]
 
