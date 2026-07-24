@@ -90,7 +90,7 @@ while True:
         flip_coin()
         continue
         
-    if user.lower() == "roll a dice":
+    if user.lower() == "roll a dice" or "dice roll" or "roll dice":
         print("Rolling the dice...")
         time.sleep(1)
         print("🎲")
