@@ -13,4 +13,4 @@ def reply(message):
         return "Goodbye!"
 
     else:
-        return "random.choice(unknown)"
+        return random.choice(unknown)
