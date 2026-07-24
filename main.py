@@ -91,7 +91,7 @@ while True:
         flip_coin()
         continue
         
-    if user.lower() == "roll a dice" or "dice roll" or "roll dice":
+     if user.lower() in ["dice roll", "roll dice", "roll a dice"]:
         print("Rolling the dice...")
         time.sleep(1)
         print("🎲")
@@ -103,7 +103,7 @@ while True:
         play_rps()
         continue
 
-    if user.lower() == "riddle" or "riddles" or "ask me a riddle":
+    if user.lower() in ["riddle", "riddles", "ask me a riddle"]:
         play_riddle()
         continue
 
