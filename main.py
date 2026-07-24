@@ -87,5 +87,13 @@ while True:
     if user.lower() in ["flip a coin", "coin flip", "flip coin"]:
         flip_coin()
         continue
+        
+    if user.lower() == "roll a dice":
+        print("Rolling the dice...")
+        time.sleep(1)
+        print("🎲")
+        time.sleep(1)
+        print(f"You rolled a {random.randint(1, 6)}!")
+        continue
 
     print("AI:", reply(user))
