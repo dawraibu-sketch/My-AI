@@ -5,6 +5,7 @@ from jokes import jokes
 from quotes import quotes
 from facts import facts
 from coinflip import flip_coin
+from rps import play_rps
 import time
 import random
 
@@ -95,6 +96,10 @@ while True:
         print("🎲")
         time.sleep(1)
         print(f"You rolled a {random.randint(1, 6)}!")
+        continue
+
+    if user.lower() in ["rps", "rock paper scissors"]:
+        play_rps()
         continue
 
     print("AI:", reply(user))
