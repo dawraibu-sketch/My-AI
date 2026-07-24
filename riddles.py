@@ -414,7 +414,7 @@ def play_riddle():
     print("🧩 Riddle")
     print(riddle["question"])
 
-    guess = input("Your answer: ").lower()
+    guess = input("Your answer: ").strip().lower()
 
     if guess == riddle["answer"]:
         print("")
