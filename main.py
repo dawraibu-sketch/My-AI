@@ -5,6 +5,7 @@ from jokes import jokes
 from quotes import quotes
 from facts import facts
 from coinflip import flip_coin
+import time
 import random
 
 creator = "Ibrahim"
