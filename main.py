@@ -104,11 +104,11 @@ while True:
         continue
 
     if user.lower() in ["riddle", "riddles", "ask me a riddle", "tell me a riddle", "give me a riddle"]:
-    print("")
-    print("Thinking...")
-    time.sleep(1.25)
-    print("")
-    play_riddle()
-    continue
+        print("")
+        print("Thinking...")
+        time.sleep(1.25)
+        print("")
+        play_riddle()
+        continue
 
     print("AI:", reply(user))
