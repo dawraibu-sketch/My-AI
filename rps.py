@@ -11,9 +11,10 @@ def play_rps():
     if user not in choices:
         print("Invalid choice!")
         return
-
+        
     print("")
     print("Thinking...")
+    time.sleep(1.25)
     print("")
 
     computer = random.choice(choices)
