@@ -1,4 +1,5 @@
 import random
+from unknown import unknown
 def reply(message):
     message = message.lower()
 
@@ -12,4 +13,4 @@ def reply(message):
         return "Goodbye!"
 
     else:
-        return ""AI:", random.choice(unknown)"
+        return "random.choice(unknown)"
