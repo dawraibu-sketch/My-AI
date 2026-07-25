@@ -6,3 +6,7 @@ def load_memory():
             return json.load(file)
     except:
         return {}
+
+def save_memory(memory):
+    with open("memory.json", "w") as file:
+        json.dump(memory, file, indent=4)
