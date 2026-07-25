@@ -29,6 +29,7 @@ while True:
     if user.lower().startswith("my name is "):
         name = user[11:]
         memory["name"] = name
+        save_memory(memory)
         print("AI: Nice to meet you,", name)
         continue
 
@@ -42,6 +43,7 @@ while True:
     if user.lower().startswith("i like "):
         thing = user[7:]
         memory["like"] = thing
+        save_memory(memory)
         print("AI: I'll remember that.")
         continue
 
@@ -50,6 +52,20 @@ while True:
             print("AI: You like", memory["like"])
         else:
             print("AI: I don't know what you like yet.")
+        continue
+
+    if user.lower().startswith("i live in "):
+        thing = user[7:]
+        memory["country"] = country
+        save_memory(memory)
+        print("AI: I'll remember that.")
+        continue
+
+    if user.lower() == "where do i live":
+        if "country" in memory:
+            print("AI: You live in ", memory["country"])
+        else:
+            print("AI: I don't know where you live yet.")
         continue
 
     if user.lower() == "what time is it":
