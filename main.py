@@ -55,7 +55,7 @@ while True:
         continue
 
     if user.lower().startswith("i live in "):
-        thing = user[7:]
+        country = user[10:]
         memory["country"] = country
         save_memory(memory)
         print("AI: I'll remember that.")
