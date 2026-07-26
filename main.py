@@ -68,6 +68,34 @@ while True:
             print("AI: I don't know where you live yet.")
         continue
 
+    if user.lower().startswith("my birthday is "):
+        birthday = user[15:]
+        memory["birthday"] = birthday
+        save_memory(memory)
+        print("AI: I'll remember that.")
+        continue
+
+    if user.lower() == "when is my birthday":
+        if "birthday" in memory:
+            print("AI: Your BirthDay is on ", memory["birthday"])
+        else:
+            print("AI: I don't know when your birthday is yet.")
+        continue
+
+    if user.lower().startswith("my favorite colour is "):
+        colour = user[22:]
+        memory["colour"] = colour
+        save_memory(memory)
+        print("AI: I'll remember that.")
+        continue
+
+    if user.lower() == "what is my favorite colour":
+        if "colour" in memory:
+            print("AI: Your favorite colour is ", memory["colour"])
+        else:
+            print("AI: I don't know what your favorite colour is yet.")
+        continue
+
     if user.lower() == "what time is it":
         print("AI: The time is", get_time())
         continue
