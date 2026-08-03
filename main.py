@@ -102,6 +102,18 @@ while True:
         print("AI: All saved memories have been erased.")
         continue
 
+    if user.lower() in ["what do you know about me", "tell me about me"]:
+        print("")
+        print("AI: Here's what I know about you:")
+
+        if len(memory) == 0:
+            print("I don't know anything about you yet.")
+        else:
+            for key, value in memory.items():
+                print(f"- {key.capitalize()}: {value}")
+
+        continue
+
     if user.lower() == "what time is it":
         print("AI: The time is", get_time())
         continue
