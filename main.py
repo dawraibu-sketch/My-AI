@@ -96,6 +96,12 @@ while True:
             print("AI: I don't know what your favorite colour is yet.")
         continue
 
+    if user.lower() in ["forget everything", "reset memory", "clear memory"]:
+        memory.clear()
+        save_memory(memory)
+        print("AI: All saved memories have been erased.")
+        continue
+
     if user.lower() == "what time is it":
         print("AI: The time is", get_time())
         continue
