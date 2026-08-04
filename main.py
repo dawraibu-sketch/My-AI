@@ -46,13 +46,12 @@ while True:
         if "likes" not in memory:
             memory["likes"] = []
             
-            if like not in memory["likes"]:
-                memory["likes"].append(like)
-                save_memory(memory)
-                print("AI: I'll remember that.")
-            else:
-                print("AI: You already told me that.")
-
+        if like not in memory["likes"]:
+            memory["likes"].append(like)
+            save_memory(memory)
+            print("AI: I'll remember that.")
+        else:
+            print("AI: You already told me that.")
         continue
 
     if user.lower() == "what do i like":
