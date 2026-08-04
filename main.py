@@ -41,11 +41,11 @@ while True:
         continue
 
     if user.lower().startswith("i like "):
-    like = user[7:]
-
+        like = user[7:]
+        
         if "likes" not in memory:
             memory["likes"] = []
-
+            
             if like not in memory["likes"]:
                 memory["likes"].append(like)
                 save_memory(memory)
