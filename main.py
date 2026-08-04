@@ -41,10 +41,18 @@ while True:
         continue
 
     if user.lower().startswith("i like "):
-        thing = user[7:]
-        memory["like"] = thing
-        save_memory(memory)
-        print("AI: I'll remember that.")
+    like = user[7:]
+
+    if "likes" not in memory:
+        memory["likes"] = []
+
+        if like not in memory["likes"]:
+            memory["likes"].append(like)
+            save_memory(memory)
+            print("AI: I'll remember that.")
+        else:
+            print("AI: You already told me that.")
+
         continue
 
     if user.lower() == "what do i like":
