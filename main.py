@@ -55,8 +55,10 @@ while True:
         continue
 
     if user.lower() == "what do i like":
-        if "like" in memory:
-            print("AI: You like", memory["like"])
+        if "likes" in memory:
+            print("AI: You like:")
+            for item in memory["likes"]:
+                print("-", item)
         else:
             print("AI: I don't know what you like yet.")
         continue
