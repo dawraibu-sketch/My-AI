@@ -10,6 +10,7 @@ from riddles import play_riddle
 from help import show_help
 from memory import load_memory, save_memory
 from knowledge import load_knowledge, save_knowledge
+from teach import teach_fact
 import time
 import random
 
@@ -192,6 +193,11 @@ while True:
 
     if user.lower() in ["help", "commands", "what can you do", "what do you do", "what are your commands"]:
         show_help()
+        continue
+
+    if user.lower().startswith("teach:"):
+        sentence = user[6:].strip()
+        teach_fact(knowledge, sentence)
         continue
 
     print("AI:", reply(user))
