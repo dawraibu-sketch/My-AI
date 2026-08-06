@@ -9,11 +9,13 @@ from rps import play_rps
 from riddles import play_riddle
 from help import show_help
 from memory import load_memory, save_memory
+from knowledge import load_knowledge, save_knowledge
 import time
 import random
 
 creator = "Ibrahim"
 memory = load_memory()
+knowledge = load_knowledge()
 
 print("Welcome to My-AI!")
 print(get_greeting() + "!")
