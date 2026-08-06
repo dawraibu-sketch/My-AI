@@ -41,11 +41,9 @@ while True:
         continue
 
     if user.lower().startswith("i like "):
-        like = user[7:]
-        
+        like = user[7:] 
         if "likes" not in memory:
-            memory["likes"] = []
-            
+            memory["likes"] = []     
         if like not in memory["likes"]:
             memory["likes"].append(like)
             save_memory(memory)
@@ -61,6 +59,16 @@ while True:
                 print("-", item)
         else:
             print("AI: I don't know what you like yet.")
+        continue
+
+    if user.lower().startswith("forget that i like "):
+        like = user[19:]
+        if "likes" in memory and like in memory["likes"]:
+            memory["likes"].remove(like)
+            save_memory(memory)
+            print("AI: Okay, I'll forget that you like", like)
+        else:
+            print("AI: I don't remember that.")
         continue
 
     if user.lower().startswith("i live in "):
