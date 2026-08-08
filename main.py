@@ -74,6 +74,37 @@ while True:
             print("AI: I don't remember that.")
         continue
 
+    if user.lower().startswith("i don't like "):
+        dislike = user[13:]
+        if "dislikes" not in memory:
+            memory["dislikes"] = []
+        if dislike not in memory["dislikes"]:
+            memory["dislikes"].append(dislike)
+            save_memory(memory)
+            print("AI: I'll remember that.")
+        else:
+            print("AI: You already told me that.")
+        continue
+
+    if user.lower() == "what don't i like":
+        if "dislikes" in memory:
+            print("AI: You don't like:")
+            for item in memory["dislikes"]:
+                print("-", item)
+        else:
+            print("AI: I don't know what you don't like yet.")
+        continue
+
+    if user.lower().startswith("forget that i don't like "):
+        dislike = user[25:]
+        if "dislikes" in memory and dislike in memory["dislikes"]:
+            memory["dislikes"].remove(dislike)
+            save_memory(memory)
+            print("AI: Okay, I'll forget that you don't like", dislike)
+        else:
+            print("AI: I don't remember that.")
+        continue
+
     if user.lower().startswith("i live in "):
         country = user[10:]
         memory["country"] = country
