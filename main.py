@@ -136,6 +136,37 @@ while True:
             print("AI: I don't remember that.")
         continue
 
+    if user.lower().startswith("my favorite game is "):
+        game = user[20:]
+        if "favorite_games" not in memory:
+            memory["favorite_games"] = []
+        if game not in memory["favorite_games"]:
+            memory["favorite_games"].append(game)
+            save_memory(memory)
+            print("AI: I'll remember that.")
+        else:
+            print("AI: You already told me that.")
+        continue
+
+    if user.lower() == "what are my favorite games":
+        if "favorite_games" in memory:
+            print("AI: Your favorite games are:")
+            for game in memory["favorite_games"]:
+                print("-", game)
+        else:
+            print("AI: I don't know your favorite games yet.")
+        continue
+
+    if user.lower().startswith("forget that my favorite game is "):
+        game = user[32:]
+        if "favorite_games" in memory and game in memory["favorite_games"]:
+            memory["favorite_games"].remove(game)
+            save_memory(memory)
+            print("AI: Okay, I'll forget that your favorite game is ", game)
+        else:
+            print("AI: I don't remember that.")
+        continue
+    
     if user.lower().startswith("i live in "):
         country = user[10:]
         memory["country"] = country
