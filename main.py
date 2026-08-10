@@ -9,7 +9,7 @@ from rps import play_rps
 from riddles import play_riddle
 from help import show_help
 from memory import load_memory, save_memory
-from knowledge import load_knowledge, save_knowledge
+from knowledge import load_knowledge, save_knowledge, show_knowledge
 from teach import teach_fact, recall_fact
 import time
 import random
@@ -312,6 +312,10 @@ while True:
 
     if user.lower().startswith("what is "):
         recall_fact(knowledge, user)
+        continue
+
+    if user.lower() in ["what have you learned", "what did you learn"]:
+        show_knowledge(knowledge)
         continue
 
     print("AI:", reply(user))
