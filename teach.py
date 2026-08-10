@@ -26,3 +26,13 @@ def recall_fact(knowledge, question):
         print("AI:", question.capitalize(), "is", knowledge[question])
     else:
         print("AI: I don't know that yet.")
+
+def show_knowledge(knowledge):
+    if len(knowledge) == 0:
+        print("AI: I haven't learned anything yet.")
+    else:
+        print("AI: Here's what I've learned:")
+
+        for question, answer in knowledge.items():
+            print("-", question.capitalize(), "is", answer)
+
