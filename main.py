@@ -215,16 +215,33 @@ while True:
         print("AI: All saved memories have been erased.")
         continue
 
-    if user.lower() in ["what do you know about me", "tell me about me"]:
+    if user.lower() == "what do you know about me":
         print("")
         print("AI: Here's what I know about you:")
-
-        if len(memory) == 0:
-            print("I don't know anything about you yet.")
-        else:
-            for key, value in memory.items():
-                print(f"- {key.capitalize()}: {value}")
-
+        if "name" in memory:
+            print("• Your name is", memory["name"])
+        if "age" in memory:
+            print("• You are", memory["age"], "years old")
+        if "country" in memory:
+            print("• You live in", memory["country"])
+        if "favorite_color" in memory:
+            print("• Your favorite color is", memory["favorite_color"])
+        if "likes" in memory:
+            print("• You like:")
+            for item in memory["likes"]:
+                print("  -", item)
+        if "dislikes" in memory:
+            print("• You don't like:")
+            for item in memory["dislikes"]:
+                print("  -", item)
+        if "favorite_foods" in memory:
+            print("• Your favorite foods are:")
+            for food in memory["favorite_foods"]:
+                print("  -", food)
+        if "favorite_games" in memory:
+            print("• Your favorite games are:")
+            for game in memory["favorite_games"]:
+                print("  -", game)
         continue
 
     if user.lower() == "what time is it":
