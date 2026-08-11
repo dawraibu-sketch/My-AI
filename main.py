@@ -18,8 +18,6 @@ import random
 creator = "Ibrahim"
 memory = load_memory()
 knowledge = load_knowledge()
-user = clean_input(user)
-user = normalize_question(user)
 
 print("Welcome to My-AI!")
 print(get_greeting() + "!")
@@ -27,6 +25,8 @@ print('Type "bye" to exit.')
 
 while True:
     user = input("You: ")
+    user = clean_input(user)
+    user = normalize_question(user)
 
     if user.lower() == "bye":
         print("AI: Goodbye!")
