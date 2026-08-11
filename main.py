@@ -11,7 +11,7 @@ from help import show_help
 from memory import load_memory, save_memory
 from knowledge import load_knowledge, save_knowledge
 from teach import teach_fact, recall_fact, show_knowledge, forget_fact
-from conversation import clean_input, normalize_question, normalize_greeting
+from conversation import clean_input, normalize_question, normalize_greeting, normalize_wellbeing
 import time
 import random
 
@@ -28,6 +28,7 @@ while True:
     user = clean_input(user)
     user = normalize_question(user)
     user = normalize_greeting(user)
+    user = normalize_wellbeing(user)
 
     if user.lower() == "bye":
         print("AI: Goodbye!")
