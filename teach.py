@@ -16,6 +16,10 @@ def teach_fact(knowledge, sentence):
     question = question.lower().strip()
     answer = answer.strip()
 
+    if not question or not answer:
+        print("AI: I need both something to learn and its information.")
+        return
+    
     if question in knowledge:
         knowledge[question] = answer
         save_knowledge(knowledge)
