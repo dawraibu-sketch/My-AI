@@ -1,7 +1,7 @@
 def clean_input(user):
     user = user.lower().strip()
 
-    punctuation = "!?.,"
+    punctuation = "!?.,'"
 
     for mark in punctuation:
         user = user.replace(mark, "")
@@ -40,9 +40,9 @@ def normalize_question(user):
         return user
 
     if user.startswith("tell me the "):
-        return "what is " + user[12:]
+        return "what is " + user[8:]
 
     if user.startswith("do you know the "):
-        return "what is " + user[16:]
+        return "what is " + user[12:]
 
     return user
