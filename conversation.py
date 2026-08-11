@@ -43,6 +43,6 @@ def normalize_question(user):
         return "what is " + user[12:]
 
     if user.startswith("do you know the "):
-        return "what is " + user[15:]
+        return "what is " + user[16:]
 
     return user
