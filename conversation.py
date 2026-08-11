@@ -48,3 +48,10 @@ def normalize_question(user):
         return "what is " + user[12:]
 
     return user
+
+def normalize_greeting(user):
+    if user in ["hello", "hey", "hi", "hi there", "hey there"]:
+        return "hello"
+
+    return user
+
