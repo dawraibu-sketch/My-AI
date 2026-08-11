@@ -36,3 +36,20 @@ def show_knowledge(knowledge):
         for question, answer in knowledge.items():
             print("-", question.capitalize(), "is", answer)
 
+def forget_fact(knowledge, question):
+    question = question.lower().strip()
+
+    if question.startswith("what is "):
+        question = question[8:]
+
+    if question.endswith("?"):
+        question = question[:-1]
+
+    if question in knowledge:
+        del knowledge[question]
+        save_knowledge(knowledge)
+        print("AI: Okay, I've forgotten that.")
+    else:
+        print("AI: I don't know that yet.")
+
+
