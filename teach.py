@@ -7,11 +7,17 @@ def teach_fact(knowledge, sentence):
 
     question, answer = sentence.split(" is ", 1)
 
-    knowledge[question.lower()] = answer
+    question = question.lower().strip()
+    answer = answer.strip()
 
-    save_knowledge(knowledge)
-
-    print("AI: Okay! I've learned that.")
+    if question in knowledge:
+        knowledge[question] = answer
+        save_knowledge(knowledge)
+        print("AI: I've updated my knowledge.")
+    else:
+        knowledge[question] = answer
+        save_knowledge(knowledge)
+        print("AI: Okay! I've learned that.")
 
 def recall_fact(knowledge, question):
     question = question.lower().strip()
