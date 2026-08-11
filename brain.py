@@ -1,10 +1,11 @@
 import random
 from unknown import unknown
+from greetings import get_greeting
 def reply(message):
     message = message.lower()
 
     if message == "hello":
-        return "Hello! Nice to meet you."
+        return get_greeting()
 
     elif message == "what is your name":
         return "I am My-AI."
