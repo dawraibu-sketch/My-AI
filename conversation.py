@@ -34,3 +34,15 @@ def clean_input(user):
     user = user.replace("shouldnt ", "should not ")
 
     return user
+    
+def normalize_question(user):
+    if user.startswith("what is "):
+        return user
+
+    if user.startswith("tell me the "):
+        return "what is " + user[12:]
+
+    if user.startswith("do you know the "):
+        return "what is " + user[15:]
+
+    return user
