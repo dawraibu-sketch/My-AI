@@ -1,7 +1,9 @@
 def clean_input(user):
     user = user.lower().strip()
 
-    punctuation = "!?.,'"
+    user = user.replace("what's", "what is")
+
+    punctuation = "!?.,"
 
     for mark in punctuation:
         user = user.replace(mark, "")
