@@ -55,3 +55,15 @@ def normalize_greeting(user):
 
     return user
 
+def normalize_wellbeing(user):
+    if user in [
+        "how are you",
+        "how are you doing",
+        "how are things",
+        "how is it going",
+        "how is everything"
+    ]:
+        return "how are you"
+
+    return user
+
