@@ -7,6 +7,9 @@ def reply(message):
     if message == "hello":
         return get_greeting()
 
+    elif message == "how are you":
+        return random.choice(wellbeing_responses)
+
     elif message == "what is your name":
         return "I am My-AI."
 
