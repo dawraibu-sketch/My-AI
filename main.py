@@ -11,12 +11,14 @@ from help import show_help
 from memory import load_memory, save_memory
 from knowledge import load_knowledge, save_knowledge
 from teach import teach_fact, recall_fact, show_knowledge, forget_fact
+from conversation import clean_input
 import time
 import random
 
 creator = "Ibrahim"
 memory = load_memory()
 knowledge = load_knowledge()
+user = clean_input(user)
 
 print("Welcome to My-AI!")
 print(get_greeting() + "!")
