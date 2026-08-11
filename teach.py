@@ -1,8 +1,14 @@
 from knowledge import save_knowledge
 
 def teach_fact(knowledge, sentence):
+    sentence = sentence.strip()
+
+    if not sentence:
+        print("AI: What would you like me to learn?")
+        return
+
     if " is " not in sentence:
-        print("AI: I don't know what to learn.")
+        print("AI: Please teach me something in the format: thing is information.")
         return
 
     question, answer = sentence.split(" is ", 1)
