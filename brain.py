@@ -1,6 +1,6 @@
 import random
 from unknown import unknown
-from greetings import get_greeting, get_wellbeing_response
+from greetings import get_greeting, get_wellbeing_response, get_farewell
 
 def reply(message):
     message = message.lower()
@@ -15,7 +15,7 @@ def reply(message):
         return "I am My-AI."
 
     elif message == "bye":
-        return "Goodbye!"
+        return get_farewell()
 
     else:
         return random.choice(unknown)
