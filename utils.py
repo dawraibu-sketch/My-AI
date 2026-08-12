@@ -1,4 +1,5 @@
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 def get_greeting():
     hour = datetime.now().hour
@@ -19,5 +20,3 @@ def get_time():
 
 def get_date():
     return datetime.now().strftime("%d %B %Y")
-
-print("Detected timezone:", datetime.now().astimezone().tzinfo)
