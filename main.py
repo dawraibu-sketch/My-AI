@@ -18,6 +18,7 @@ import random
 creator = "Ibrahim"
 memory = load_memory()
 knowledge = load_knowledge()
+pending_update = None
 
 print("Welcome to My-AI!")
 print(get_greeting() + "!")
@@ -29,6 +30,29 @@ while True:
     user = normalize_question(user)
     user = normalize_greeting(user)
     user = normalize_wellbeing(user)
+
+    if pending_update is not None:
+        if user in ["yes", "yeah", "yep", "sure", "okay", "ok"]:
+            old_type = pending_update["old_type"]
+            item = pending_update["item"]
+            if old_type == "like":
+                memory["likes"].remove(item)
+                if "dislikes" not in memory:
+                    memory["dislikes"] = []
+                memory["dislikes"].append(item)
+            elif old_type == "dislike":
+                memory["dislikes"].remove(item)
+                if "likes" not in memory:
+                    memory["likes"] = []
+                memory["likes"].append(item)
+            save_memory(memory)
+            print("AI: Okay, I'll update my memory.")
+            pending_update = None
+            continue
+        elif user in ["no", "nope", "nah"]:
+            print("AI: Okay, I'll keep your existing preference.")
+            pending_update = None
+            continue
 
     if user.lower() == "bye":
         print("AI: Goodbye!")
@@ -51,8 +75,10 @@ while True:
     if user.lower().startswith("i like "):
         like = user[7:] 
         if "dislikes" in memory and like in memory["dislikes"]:
-            print("AI: You already told me that you dislike", like)
-            continue
+        print("AI: You previously told me that you dislike", like)
+        print("AI: Would you like me to update that?")
+        pending_update = {"old_type": "dislike","item": like}
+        continue
         if "likes" not in memory:
             memory["likes"] = []     
         if like not in memory["likes"]:
@@ -85,8 +111,10 @@ while True:
     if user.lower().startswith("i don't like "):
         dislike = user[13:]
         if "likes" in memory and dislike in memory["likes"]:
-            print("AI: You already told me that you like", dislike)
-            continue
+        print("AI: You previously told me that you like", dislike)
+        print("AI: Would you like me to update that?")
+        pending_update = {"old_type": "like","item": dislike}
+        continue
         if "dislikes" not in memory:
             memory["dislikes"] = []
         if dislike not in memory["dislikes"]:
