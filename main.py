@@ -55,7 +55,8 @@ while True:
             continue
 
     if user.lower() == "bye":
-        print("AI: Goodbye!")
+        print("AI:", reply(user))
+        time.sleep(0.75)
         break
 
     if user.lower().startswith("my name is "):
