@@ -36,9 +36,25 @@ wellbeing_responses = [
     "All systems are running smoothly!"
 ]
 
+farewells = [
+    "Goodbye!",
+    "See you later!",
+    "Bye! Have a great day!",
+    "See you next time!",
+    "Goodbye! Take care!",
+    "Bye! It was nice talking to you.",
+    "See you soon!",
+    "Take care! See you later!",
+    "Until next time!",
+    "Bye! Have a good one!"
+]
+
 def get_greeting():
     return random.choice(greetings)
 
 def get_wellbeing_response():
     return random.choice(wellbeing_responses)
     
+def get_farewell():
+    return random.choice(farewells)
+
