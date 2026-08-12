@@ -1,6 +1,20 @@
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+
+def get_timezone():
+    try:
+        local_timezone = datetime.now().astimezone().tzinfo
+
+        if local_timezone is not None:
+            return local_timezone
+
+    except Exception:
+        pass
+
+    return ZoneInfo("UTC")
+
+
 def get_greeting():
     hour = datetime.now().hour
 
