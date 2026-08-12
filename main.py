@@ -75,10 +75,10 @@ while True:
     if user.lower().startswith("i like "):
         like = user[7:] 
         if "dislikes" in memory and like in memory["dislikes"]:
-        print("AI: You previously told me that you dislike", like)
-        print("AI: Would you like me to update that?")
-        pending_update = {"old_type": "dislike","item": like}
-        continue
+            print("AI: You previously told me that you dislike", like)
+            print("AI: Would you like me to update that?")
+            pending_update = {"old_type": "dislike","item": like}
+            continue
         if "likes" not in memory:
             memory["likes"] = []     
         if like not in memory["likes"]:
@@ -111,10 +111,10 @@ while True:
     if user.lower().startswith("i don't like "):
         dislike = user[13:]
         if "likes" in memory and dislike in memory["likes"]:
-        print("AI: You previously told me that you like", dislike)
-        print("AI: Would you like me to update that?")
-        pending_update = {"old_type": "like","item": dislike}
-        continue
+            print("AI: You previously told me that you like", dislike)
+            print("AI: Would you like me to update that?")
+            pending_update = {"old_type": "like","item": dislike}
+            continue
         if "dislikes" not in memory:
             memory["dislikes"] = []
         if dislike not in memory["dislikes"]:
