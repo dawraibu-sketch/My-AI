@@ -59,6 +59,9 @@ def normalize_question(user):
     if user.startswith("do you know the "):
         return "what is " + user[12:]
 
+    if user in ["what is the time","what time is it","tell me the time","do you know the time","current time"]:
+        return "what is the time"
+    
     return user
 
 def normalize_greeting(user):
