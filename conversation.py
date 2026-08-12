@@ -60,7 +60,7 @@ def normalize_question(user):
         return "what is " + user[12:]
 
     if user in ["what is the time","what time is it","tell me the time","do you know the time","current time"]:
-        return "what is the time"
+        return "what time is it"
     
     return user
 
