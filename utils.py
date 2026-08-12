@@ -19,3 +19,5 @@ def get_time():
 
 def get_date():
     return datetime.now().strftime("%d %B %Y")
+
+print("Detected timezone:", datetime.now().astimezone().tzinfo)
