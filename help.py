@@ -53,7 +53,7 @@ def show_help():
     print("")
     print("💡 EXAMPLES")
     print("-------------------------")
-    print('Say "What is today's date?"')
+    print('Say "What is today\'s date?"')
     print('Say "What is my favorite game?"')
     print('Say "Teach: The capital of Australia is Canberra"')
     print('Say "I like football"')
