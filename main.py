@@ -91,6 +91,18 @@ while True:
             print("AI: You already told me that.")
         continue
 
+    if user.lower().startswith("i dislike "):
+        dislike = user[10:]
+        if "dislikes" not in memory:
+            memory["dislikes"] = []
+        if dislike not in memory["dislikes"]:
+            memory["dislikes"].append(dislike)
+            save_memory(memory)
+            print("AI: I'll remember that.")
+        else:
+            print("AI: You already told me that.")
+        continue
+
     if user.lower() == "what don't i like":
         if "dislikes" in memory:
             print("AI: You don't like:")
