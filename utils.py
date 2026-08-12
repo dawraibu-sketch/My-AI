@@ -1,6 +1,7 @@
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+
 def get_timezone():
     try:
         local_timezone = datetime.now().astimezone().tzinfo
@@ -13,8 +14,10 @@ def get_timezone():
 
     return ZoneInfo("UTC")
 
+
 def get_greeting():
-    hour = datetime.now().hour
+    timezone = get_timezone()
+    hour = datetime.now(timezone).hour
 
     if hour < 12:
         return "Good morning"
@@ -25,12 +28,12 @@ def get_greeting():
     else:
         return "Good evening"
 
+
 def get_time():
-    return datetime.now().strftime("%I:%M %p")
+    timezone = get_timezone()
+    return datetime.now(timezone).strftime("%I:%M %p")
 
 
 def get_date():
-    return datetime.now().strftime("%d %B %Y")
-
-
-print("Detected timezone:", get_timezone())
+    timezone = get_timezone()
+    return datetime.now(timezone).strftime("%d %B %Y")
