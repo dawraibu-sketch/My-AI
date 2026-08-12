@@ -28,5 +28,17 @@ greetings = [
     "Hey! I'm here."
 ]
 
+wellbeing_responses = [
+    "I'm doing great! Thanks for asking.",
+    "I'm doing well! How about you?",
+    "I'm good! Ready to help.",
+    "I'm doing pretty well.",
+    "All systems are running smoothly!"
+]
+
 def get_greeting():
     return random.choice(greetings)
+
+def get_wellbeing_response():
+    return random.choice(wellbeing_responses)
+    
