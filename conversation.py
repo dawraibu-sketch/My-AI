@@ -46,6 +46,9 @@ def normalize_question(user):
 
     if user in ["i don't like","i dislike" ]:
         return "i don't like"
+
+    if user.startswith("i dislike "):
+        return "i don't like " + user[10:]
     
     if user.startswith("what is "):
         return user
