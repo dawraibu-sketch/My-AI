@@ -84,6 +84,9 @@ while True:
 
     if user.lower().startswith("i don't like "):
         dislike = user[13:]
+        if "likes" in memory and dislike in memory["likes"]:
+            print("AI: You already told me that you like", dislike)
+            continue
         if "dislikes" not in memory:
             memory["dislikes"] = []
         if dislike not in memory["dislikes"]:
