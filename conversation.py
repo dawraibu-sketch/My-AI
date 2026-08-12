@@ -38,6 +38,12 @@ def clean_input(user):
     return user
     
 def normalize_question(user):
+    if user in ["what is my favorite game","what are my favorite games" ]:
+        return "what are my favorite games"
+
+    if user in ["what don't i like","what do i dislike" ]:
+        return "what don't i like"
+    
     if user.startswith("what is "):
         return user
 
