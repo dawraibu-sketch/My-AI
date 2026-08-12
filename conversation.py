@@ -47,6 +47,12 @@ def normalize_question(user):
     if user.startswith("do you know the "):
         return "what is " + user[12:]
 
+    if user in ["what is my favorite game","what are my favorite games" ]:
+        return "what are my favorite games"
+
+    if user in ["what don't i like","what do i dislike" ]:
+        return "what don't i like"
+
     return user
 
 def normalize_greeting(user):
