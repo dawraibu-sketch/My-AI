@@ -57,7 +57,7 @@ def normalize_question(user):
         return "what is today's date"
 
     if user in ["what is my favorite food","what are my favorite foods","what food is my favorite","what food do i like","what are the foods i like"]:
-    return "what are my favorite foods"
+        return "what are my favorite foods"
     
     if user.startswith("what is "):
         return user
