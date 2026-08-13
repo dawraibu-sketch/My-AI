@@ -49,6 +49,9 @@ def normalize_question(user):
 
     if user.startswith("i dislike "):
         return "i don't like " + user[10:]
+
+    if user in ["what is the time","what time is it","tell me the time","do you know the time","current time"]:
+        return "what time is it"
     
     if user.startswith("what is "):
         return user
@@ -58,9 +61,6 @@ def normalize_question(user):
 
     if user.startswith("do you know the "):
         return "what is " + user[12:]
-
-    if user in ["what is the time","what time is it","tell me the time","do you know the time","current time"]:
-        return "what time is it"
     
     return user
 
