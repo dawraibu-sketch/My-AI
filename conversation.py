@@ -38,7 +38,7 @@ def clean_input(user):
     return user
     
 def normalize_question(user):
-    if user in ["what is my favorite game","what are my favorite games" ]:
+    if user in ["what is my favorite game","what are my favorite games","what game is my favorite","what games do i like","which games do i like","which games are my favorite","what are the games i like"]:
         return "what are my favorite games"
 
     if user in ["what don't i like","what do i dislike" ]:
