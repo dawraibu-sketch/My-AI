@@ -41,11 +41,14 @@ def normalize_question(user):
     if user in ["what is my favorite game","what are my favorite games","what game is my favorite","what games do i like","which games do i like","which games are my favorite","what are the games i like"]:
         return "what are my favorite games"
 
-    if user in ["what don't i like","what do i dislike" ]:
+    if user in ["what don't i like","what do i dislike","what things don't i like","what things do i dislike","what are the things i dislike","what are my dislikes","what do i hate"]:
         return "what don't i like"
 
     if user in ["i don't like","i dislike" ]:
         return "i don't like"
+
+    if user in ["what do i like","what things do i like","what are the things i like","what do i like the most","what are my likes","what things do i like","what do i enjoy"]:
+        return "what do i like"
 
     if user.startswith("i dislike "):
         return "i don't like " + user[10:]
