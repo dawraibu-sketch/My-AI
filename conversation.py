@@ -53,9 +53,11 @@ def normalize_question(user):
     if user in ["what is the time","what time is it","tell me the time","do you know the time","current time"]:
         return "what time is it"
 
-    if user in ["what is today's date","what is the date today","tell me today's date","tell me the date",
-        "what date is it","today's date","current date"]:
+    if user in ["what is today's date","what is the date today","tell me today's date","tell me the date","what date is it","today's date","current date"]:
         return "what is today's date"
+
+    if user in ["what is my favorite food","what are my favorite foods","what food is my favorite","what food do i like","what are the foods i like"]:
+    return "what are my favorite foods"
     
     if user.startswith("what is "):
         return user
