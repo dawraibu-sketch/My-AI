@@ -285,7 +285,7 @@ while True:
         continue
 
     if user.lower() == "what time is it":
-        print("AI: The time is", get_time())
+        print("AI: ", get_time())
         continue
 
     if user.lower() == "what is today's date":
