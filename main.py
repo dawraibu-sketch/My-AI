@@ -350,6 +350,10 @@ while True:
         teach_fact(knowledge, sentence)
         continue
 
+    if user.lower() == "what is the weather":
+        print("AI:", reply(user))
+        continue
+
     if user.lower().startswith("what is "):
         recall_fact(knowledge, user)
         continue
@@ -364,3 +368,4 @@ while True:
         continue
 
     print("AI:", reply(user))
+
