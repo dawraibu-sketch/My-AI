@@ -5,7 +5,6 @@ from weather import get_weather
 
 def reply(message):
     message = message.lower()
-    print("DEBUG:", repr(message))
 
     if message == "hello":
         return get_greeting()
