@@ -2,16 +2,26 @@ import requests
 
 
 def get_location():
-    response = requests.get("https://ipwho.is/")
-    data = response.json()
+    try:
+        response = requests.get(
+            "https://ipwho.is/",
+            timeout=10
+        )
 
-    if data.get("success"):
-        return {
-            "city": data["city"],
-            "country": data["country"],
-            "latitude": data["latitude"],
-            "longitude": data["longitude"],
-            "timezone": data["timezone"]["id"]
-        }
+        response.raise_for_status()
+        data = response.json()
 
-    return None
+        if data.get("success"):
+            return {
+                "city": data["city"],
+                "country": data["country"],
+                "latitude": data["latitude"],
+                "longitude": data["longitude"],
+                "timezone": data["timezone"]["id"]
+            }
+
+        return None
+
+    except (requests.RequestException, ValueError, KeyError, TypeError):
+        return None
+

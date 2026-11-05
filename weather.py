@@ -16,10 +16,21 @@ def get_weather():
         "current": "temperature_2m"
     }
 
-    response = requests.get(url, params=params)
-    data = response.json()
+    try:
+        response = requests.get(url, params=params, timeout=10)
+        response.raise_for_status()
+        data = response.json()
 
-    return {
-        "city": location["city"],
-        "temperature": data["current"]["temperature_2m"]
-    }
+        current = data.get("current")
+
+        if current is None or "temperature_2m" not in current:
+            return None
+
+        return {
+            "city": location["city"],
+            "temperature": current["temperature_2m"]
+        }
+
+    except (requests.RequestException, ValueError, KeyError, TypeError):
+        return None
+        
